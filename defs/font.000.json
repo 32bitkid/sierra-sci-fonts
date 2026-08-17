@@ -1,0 +1,612 @@
+{
+	"name": "FONT.000",
+	"version": "1.0.0",
+	"chamfer": "inside",
+	"pad": {
+		"top": 2
+	},
+	"sources": [
+		{
+			"type": "resource",
+			"root": "/path/to/source_a",
+			"id": 0,
+			"mappings": [
+				"ascii-uppercase",
+				"ascii-lowercase",
+				["04", "00a9", "copyright sign"],
+				["05", "2122", "trademark symbol"],
+				["0a", "2163", "roman numeral four"],
+				["0b", "2642", "male symbol"],
+				["0c", "2640", "female symbol"],
+				["0d", "266a", "eighth note"],
+				["0e", "266c", "beamed 16th note"],
+
+				["10", "25b6", "black right-pointing triangle"],
+				["11", "25c2", "black left-pointing triangle"],
+				["1e", "25b2", "black left-pointing triangle"],
+				["1f", "25bc", "black left-pointing triangle"],
+
+				["18", "1F845", "up-pointing arrow"],
+				["19", "1F847", "down-pointing arrow"],
+				["1a", "2192", "right-pointing arrow"],
+				["1b", "2190", "left-pointing arrow"],
+				["12", "2195", "vertical-pointing arrow"],
+				["1d", "2194", "horizontal-pointing arrow"],
+				["16", "25ac", "black rectangle"],
+				["17", "21a8", "up down arrow with base"],
+
+				["01", "26f0", "mountain"],
+				["13", "203c", "double exclamation mark"],
+				["14", "00b6", "pilcrow sign"],
+				["15", "00a7", "section sign"],
+				["1c", "221f", "right angle"],
+				["0f", "263c", "solar symbol"],
+				["03", "2388", "helm symbol"],
+				["02", "2387", "alternative key symbol"],
+				["08", "232b", "erase to the left"],
+				["09", "2b7e", "horizontal tab key"],
+				["49", "2160", "roman numeral one"],
+
+				[
+					"69",
+					"00ee",
+					"latin small letter i with circumflex",
+					{
+						"xor": ["      ", "  #   ", " ##   ", "      "]
+					}
+				],
+				[
+					"41",
+					"00c4",
+					"latin capital letter a with diaeresis",
+					{
+						"xor": ["  #  #  "]
+					}
+				],
+				[
+					"41",
+					"00c5",
+					"latin capital letter a with ring above",
+					{
+						"xor": ["   ##   ", "  #  #  ", "  #  #  ", " # ## #  "]
+					}
+				],
+				[
+					"41",
+					"00c2",
+					"latin capital letter a with circumflex",
+					{
+						"xor": ["   ##  ", "  #  #  ", "  ####  ", " # ## #  "]
+					}
+				],
+				[
+					"41",
+					"00c1",
+					"latin capital letter a with acute",
+					{
+						"xor": ["     #  ", "    #   "]
+					}
+				],
+				[
+					"41",
+					"00c0",
+					"latin capital letter a with grave",
+					{
+						"xor": ["   #    ", "    #   "]
+					}
+				],
+				[
+					"41",
+					"00c3",
+					"latin capital letter a with tilde",
+					{
+						"xor": ["  ##  # ", " #  ##  ", "  #  #  ", " # ## # "]
+					}
+				],
+				[
+					"45",
+					"00c9",
+					"latin capital letter e with acute",
+					{
+						"xor": ["     #  ", "    #   "]
+					}
+				],
+				[
+					"45",
+					"00c8",
+					"latin capital letter e with grave",
+					{
+						"xor": ["    #   ", "     #  "]
+					}
+				],
+				[
+					"45",
+					"00cb",
+					"latin capital letter e with diaeresis",
+					{
+						"xor": ["   # #  ", "        "]
+					}
+				],
+				[
+					"45",
+					"00ca",
+					"latin capital letter e with circumflex",
+					{
+						"xor": ["    #   ", "   # #  "]
+					}
+				],
+				[
+					"49",
+					"00cc",
+					"latin capital letter i with grave",
+					{
+						"xor": ["  #   ", "   #  "]
+					}
+				],
+				[
+					"49",
+					"00cd",
+					"latin capital letter i with acute",
+					{
+						"xor": ["   #  ", "  #   "]
+					}
+				],
+				[
+					"49",
+					"00ce",
+					"latin capital letter i with circumflex",
+					{
+						"xor": ["  ##   ", " #  #  ", " ####  ", " #  #  "]
+					}
+				],
+				[
+					"49",
+					"00cf",
+					"latin capital letter i with diaeresis",
+					{
+						"xor": [" #  # ", "      "]
+					}
+				],
+				[
+					"4E",
+					"00d1",
+					"latin capital letter n with tilde",
+					{
+						"xor": ["   # # ", "  # #  "]
+					}
+				],
+				[
+					"4F",
+					"00d2",
+					"latin capital letter o with grave",
+					{
+						"xor": ["   #   ", "    #  "]
+					}
+				],
+
+				[
+					"4F",
+					"00d3",
+					"latin capital letter o with acute",
+					{
+						"xor": ["     #  ", "    #   "]
+					}
+				],
+				[
+					"4f",
+					"00d4",
+					"latin capital letter o with circumflex",
+					{
+						"xor": ["    #   ", "   # #  "]
+					}
+				],
+				[
+					"4f",
+					"00d5",
+					"latin capital letter o with tilde",
+					{
+						"xor": ["   ## #  ", "  #  #   "]
+					}
+				],
+				[
+					"4f",
+					"00d6",
+					"latin capital letter o with diaeresis",
+					{
+						"xor": ["   # #  "]
+					}
+				],
+				[
+					"4f",
+					"00d8",
+					"latin capital letter o with stroke",
+					{
+						"pad": {
+							"right": 1
+						},
+						"xor": [
+							"         ",
+							"         ",
+							"        #",
+							"         ",
+							"     #   ",
+							"    #    ",
+							"   #     ",
+							"         ",
+							"#        "
+						]
+					}
+				],
+				[
+					"55",
+					"00d9",
+					"latin capital letter u with grave",
+					{
+						"xor": ["   #   ", "    #   "]
+					}
+				],
+				[
+					"44",
+					"00d0",
+					"latin capital letter eth",
+					{
+						"xor": [
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							" #  #   ",
+							"        "
+						]
+					}
+				],
+				[
+					"55",
+					"00da",
+					"latin capital letter u with acute",
+					{
+						"xor": ["    #   ", "   #    "]
+					}
+				],
+				[
+					"55",
+					"00db",
+					"latin capital letter u with circumflex",
+					{
+						"xor": ["   ##   ", "  #  #  ", " ##  ## "]
+					}
+				],
+				[
+					"55",
+					"00dc",
+					"latin capital letter u with diaeresis",
+					{
+						"xor": ["  #  #  "]
+					}
+				],
+				[
+					"59",
+					"00dd",
+					"latin capital letter y with acute",
+					{
+						"xor": ["    #   ", "   #    "]
+					}
+				],
+				[
+					"44",
+					"00de",
+					"latin capital letter thorn",
+					{
+						"xor": [
+							"        ",
+							" ###    ",
+							" #  ### ",
+							"    ## # ",
+							"        ",
+							"        ",
+							"    ## # ",
+							"      ##",
+							"    ### "
+						]
+					}
+				],
+				[
+					"6F",
+					"00f4",
+					"latin small letter o with circumflex",
+					{
+						"xor": ["        ", "   ##   ", "  #  #  ", "        "]
+					}
+				],
+				[
+					"61",
+					"00e2",
+					"latin small letter a with circumflex",
+					{
+						"xor": ["       ", "   ##  ", "  #  # ", "       "]
+					}
+				],
+				[
+					"61",
+					"00e3",
+					"latin small letter a with tilde",
+					{
+						"xor": ["       ", "   # # ", "  # #  ", "       "]
+					}
+				],
+				[
+					"65",
+					"00ea",
+					"latin small letter e with circumflex",
+					{
+						"xor": ["       ", "   ##  ", "  #  # ", "       "]
+					}
+				],
+				[
+					"6e",
+					"00f1",
+					"latin small letter n with tilde",
+					{
+						"xor": ["       ", "   # # ", "  # #  ", "       "]
+					}
+				],
+				[
+					"6f",
+					"00f5",
+					"latin small letter o with tilde",
+					{
+						"xor": ["       ", "   # # ", "  # #  ", "       "]
+					}
+				],
+				[
+					"6f",
+					"00f8",
+					"latin small letter o with slash",
+					{
+						"pad": {
+							"right": 1
+						},
+						"xor": [
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"       #",
+							"        ",
+							"   ##   ",
+							"        ",
+							"#       "
+						]
+					}
+				],
+				[
+					"75",
+					"00f9",
+					"latin small letter u with grave",
+					{
+						"xor": ["       ", "       ", "   #   ", "    #  "]
+					}
+				],
+				[
+					"64",
+					"00f0",
+					"latin small letter eth",
+					{
+						"xor": [
+							"        ",
+							" ##  #  ",
+							"   #### ",
+							"  # # # ",
+							"  ###   ",
+							" # ##  #",
+							"     # #",
+							"     # #",
+							"     # #"
+						]
+					}
+				],
+				[
+					"75",
+					"00fb",
+					"latin small letter u with diaeresis",
+					{
+						"xor": ["       ", "   ##  ", "  #  # ", "       "]
+					}
+				],
+				[
+					"75",
+					"00fc",
+					"latin small letter u with diaeresis",
+					{
+						"xor": ["       ", "       ", "   # # "]
+					}
+				],
+				[
+					"79",
+					"00fd",
+					"latin small letter y with diaeresis",
+					{
+						"xor": ["        ", "        ", "    #   ", "   #    "]
+					}
+				],
+				[
+					"70",
+					"00fe",
+					"latin small letter thorn",
+					{
+						"xor": [
+							"       ",
+							"       ",
+							" ##    ",
+							" ##    ",
+							"   #   ",
+							"   #   ",
+							"       ",
+							"    # #",
+							"    ## "
+						]
+					}
+				],
+				[
+					"79",
+					"00ff",
+					"latin small letter y with diaeresis",
+					{
+						"xor": ["        ", "        ", "   # #  "]
+					}
+				]
+			]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_b",
+			"id": 0,
+			"mappings": [
+				["0c", "2162", "roman numeral three"],
+				["0b", "E000", "space quest three"]
+			]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_c",
+			"id": 0,
+			"mappings": ["ascii-digits", "ascii-symbols"]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_d",
+			"id": 0,
+			"mappings": [["1c", "E001", "lsl3 logo"]]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_e",
+			"id": 0,
+			"mappings": [
+				["7f", "2302", "house"],
+				["06", "2161", "roman numeral two"],
+				["07", "2022", "bullet"],
+				["09", "25D9", "inverse bullet"],
+				["18", "2191", "up-pointing arrow"],
+				["19", "2193", "down-pointing arrow"]
+			]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_f",
+			"id": 0,
+			"mappings": [
+				[
+					"43",
+					"00c7",
+					"latin capital letter c with cedilla",
+					{
+						"pad": {
+							"bottom": 1
+						},
+						"xor": [
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"        ",
+							"   xx   ",
+							"  x     "
+						]
+					}
+				],
+				["84", "00e4", "latin small letter a with diaeresis"],
+				["85", "00e0", "latin small letter a with grave"],
+				[
+					"87",
+					"00e7",
+					"latin small letter c with cedilla",
+					{
+						"pad": {
+							"top": 1
+						}
+					}
+				],
+				["89", "00eb", "latin small letter e with diaeresis"],
+				["8a", "00e8", "latin small letter e with grave"],
+				["91", "00e6", "latin small letter ae"],
+				["92", "00c6", "latin capital letter ae"],
+				["9c", "00a3", "pound sign"],
+				["9d", "00a5", "yen sign"],
+				["9e", "20a7", "peseta sign"],
+				["9f", "0192", "latin small letter f with hook"],
+				["a6", "00AA", "feminine ordinal indicator"],
+				["a7", "00BA", "masculine ordinal indicator"],
+				["a8", "00bf", "inverted question mark"],
+				[
+					"92",
+					"0152",
+					"latin capital letter oe",
+					{
+						"pad": {
+							"right": 1
+						},
+						"xor": [
+							"          ",
+							"          ",
+							"  #      #",
+							" # #     #",
+							" # #      ",
+							"          ",
+							"   ##     ",
+							"         #",
+							" # ##    #"
+						]
+					}
+				],
+				[
+					"91",
+					"0153",
+					"latin small letter oe",
+					{
+						"xor": [
+							"          ",
+							"          ",
+							"          ",
+							"          ",
+							"          ",
+							" ##       ",
+							" # #      "
+						]
+					}
+				]
+			]
+		},
+		{
+			"type": "patch",
+			"path": "/path/to/source_g/FONT.000",
+			"mappings": [
+				["23", "00a1", "inverted exclamation mark"],
+				["5b", "00ed", "latin small letter i with acute"],
+				["5d", "00f3", "latin small letter o with acute"],
+				["7b", "00e1", "latin small letter a with acute"],
+				["7c", "00fa", "latin small letter u with acute"],
+				["7d", "00e9", "latin small letter e with acute"]
+			]
+		},
+		{
+			"type": "resource",
+			"root": "/path/to/source_h",
+			"id": 0,
+			"mappings": [
+				["86", "00e5", "latin small letter a with ring above"],
+				["8b", "00ef", "latin small letter i with diaeresis"],
+				["8d", "00ec", "latin small letter i with grave"],
+				["94", "00f6", "latin small letter o with diaeresis"],
+				["95", "00f2", "latin small letter o with grave"],
+				["9b", "00a2", "cent sign"],
+				["e1", "00df", "latin small letter sharp s"]
+			]
+		}
+	]
+}
