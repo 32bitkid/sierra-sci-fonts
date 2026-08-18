@@ -27,6 +27,8 @@ woff2s: otfs
 	@woff2_compress ./dist/sciAC-font-000.otf
 	@woff2_compress ./dist/sciAC-font-000-free.otf
 	@woff2_compress ./dist/sciAC-font-000-pure.otf
+	@woff2_compress ./dist/sciAC-font-001-free.otf
+	@woff2_compress ./dist/sciAC-font-001-pure.otf
 	@woff2_compress ./dist/sciAC-font-300.otf
 	@woff2_compress ./dist/sciAC-font-300-free.otf
 	@woff2_compress ./dist/sciAC-font-300-pure.otf
@@ -45,6 +47,12 @@ otfs:
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json --aspect-ratio 1:1 --chamfer none -o dist
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json --aspect-ratio 1:1 --chamfer none -o dist
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json --aspect-ratio 1:1 --chamfer none -o dist
+
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json --aspect-ratio 1:1.2 --chamfer inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json --aspect-ratio 1:1.2 --chamfer inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json --aspect-ratio 1:1 --chamfer none -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json --aspect-ratio 1:1 --chamfer none -o dist
+
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json --aspect-ratio 1:1.2 --chamfer inside -o dist
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json --aspect-ratio 1:1.2 --chamfer inside -o dist
 	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json --aspect-ratio 1:1.2 --chamfer inside -o dist
