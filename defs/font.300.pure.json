@@ -1,9 +1,9 @@
 {
   "name": "FONT.300 Pure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "chamfer": "inside",
   "pad": {
-    "top": 2
+    "top": 1
   },
   "sources": [
     {
