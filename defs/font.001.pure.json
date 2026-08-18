@@ -1,0 +1,470 @@
+{
+  "name": "FONT.001 Pure",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 1,
+      "shift": {
+        "dx": 1
+      },
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase"
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 1,
+      "mappings": [
+        [
+          "00",
+          "2592",
+          "medium shade"
+        ],
+        [
+          "01",
+          "26f0",
+          "mountain"
+        ],
+        [
+          "03",
+          "2665",
+          "black heart suit"
+        ],
+        [
+          "04",
+          "00a9",
+          "copyright sign"
+        ],
+        [
+          "05",
+          "2663",
+          "black club suit"
+        ],
+        [
+          "06",
+          "2666",
+          "spade club suit"
+        ],
+        [
+          "07",
+          "2022",
+          "bullet"
+        ],
+        [
+          "08",
+          "2122",
+          "trademark symbol"
+        ],
+        [
+          "09",
+          "25CB",
+          "white circle"
+        ],
+        [
+          "0a",
+          "25D8",
+          "inverse bullet"
+        ],
+        [
+          "0b",
+          "2642",
+          "male symbol"
+        ],
+        [
+          "0c",
+          "2640",
+          "female symbol"
+        ],
+        [
+          "0d",
+          "266a",
+          "eighth note"
+        ],
+        [
+          "0e",
+          "266c",
+          "beamed 16th note"
+        ],
+        [
+          "0f",
+          "263C",
+          "white sun with rays"
+        ],
+        [
+          "17",
+          "21a8",
+          "up down arrow with base"
+        ],
+        [
+          "1c",
+          "221f",
+          "right angle"
+        ],
+        [
+          "13",
+          "203c",
+          "double exclamation mark"
+        ],
+        [
+          "14",
+          "00b6",
+          "pilcrow sign"
+        ],
+        [
+          "15",
+          "00a7",
+          "section sign"
+        ],
+        [
+          "7f",
+          "2302",
+          "house"
+        ]
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_b",
+      "id": 1,
+      "mappings": [
+        [
+          "02",
+          "2387",
+          "alternative key symbol"
+        ],
+        [
+          "03",
+          "2388",
+          "helm symbol"
+        ],
+        [
+          "08",
+          "232b",
+          "erase to the left"
+        ],
+        [
+          "09",
+          "2b7e",
+          "horizontal tab key"
+        ],
+        [
+          "10",
+          "25b6",
+          "black right-pointing triangle"
+        ],
+        [
+          "11",
+          "25c2",
+          "black left-pointing triangle"
+        ],
+        [
+          "1e",
+          "25b2",
+          "black up-pointing triangle"
+        ],
+        [
+          "1f",
+          "25bc",
+          "black down-pointing triangle"
+        ],
+        [
+          "18",
+          "2191",
+          "up-pointing arrow"
+        ],
+        [
+          "19",
+          "2193",
+          "down-pointing arrow"
+        ],
+        [
+          "1a",
+          "2192",
+          "right-pointing arrow"
+        ],
+        [
+          "1b",
+          "2190",
+          "left-pointing arrow"
+        ],
+        [
+          "12",
+          "2195",
+          "vertical-pointing arrow"
+        ],
+        [
+          "1d",
+          "2194",
+          "horizontal-pointing arrow"
+        ],
+        [
+          "16",
+          "25ac",
+          "black rectangle"
+        ]
+      ]
+    },
+    {
+      "type": "patch",
+      "path": "/path/to/source_c",
+      "shift": {
+        "dx": 1
+      },
+      "mappings": [
+        [
+          "23",
+          "00a1",
+          "inverted exclamation mark",
+          {
+            "shift": {
+              "dx": -2
+            }
+          }
+        ],
+        [
+          "26",
+          "00bf",
+          "inverted question mark",
+          {
+            "pad": {
+              "bottom": 1
+            },
+            "shift": {
+              "dx": -1,
+              "dy": 1
+            }
+          }
+        ],
+        [
+          "5B",
+          "00ed",
+          "latin small letter i with acute"
+        ],
+        [
+          "5D",
+          "00f3",
+          "latin small letter o with acute"
+        ],
+        [
+          "7B",
+          "00e1",
+          "latin small letter a with acute"
+        ],
+        [
+          "7C",
+          "00fa",
+          "latin small letter u with acute"
+        ],
+        [
+          "7D",
+          "00e9",
+          "latin small letter e with acute"
+        ],
+        [
+          "5E",
+          "00FC",
+          "latin small letter u with diaeresis"
+        ]
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_d",
+      "id": 1,
+      "mappings": [
+        [
+          "80",
+          "00C7",
+          "latin capital letter c with cedilla"
+        ],
+        [
+          "83",
+          "00E2",
+          "latin small letter a with circumflex"
+        ],
+        [
+          "84",
+          "00E4",
+          "latin small letter a with diaeresis"
+        ],
+        [
+          "85",
+          "00E0",
+          "latin small letter a with grave"
+        ],
+        [
+          "87",
+          "00E7",
+          "latin small letter c with cedilla"
+        ],
+        [
+          "88",
+          "00EA",
+          "latin small letter e with circumflex"
+        ],
+        [
+          "89",
+          "00EB",
+          "latin small letter e with diaeresis"
+        ],
+        [
+          "8a",
+          "00E8",
+          "latin small letter e with grave"
+        ],
+        [
+          "8c",
+          "00EE",
+          "latin small letter i with circumflex"
+        ],
+        [
+          "8e",
+          "00C4",
+          "latin capital letter a with diaeresis"
+        ],
+        [
+          "8f",
+          "00C5",
+          "latin capital letter a with ring above"
+        ],
+        [
+          "90",
+          "00C9",
+          "latin capital letter e with acute"
+        ],
+        [
+          "91",
+          "00E6",
+          "latin small letter ae"
+        ],
+        [
+          "92",
+          "00C6",
+          "latin capital letter ae"
+        ],
+        [
+          "93",
+          "00F4",
+          "latin small letter o with circumflex"
+        ],
+        [
+          "96",
+          "00FB",
+          "latin small letter u with circumflex"
+        ],
+        [
+          "97",
+          "00F9",
+          "latin small letter u with grave"
+        ],
+        [
+          "98",
+          "00FF",
+          "latin small letter y with diaeresis"
+        ],
+        [
+          "9c",
+          "00a3",
+          "pound sign"
+        ],
+        [
+          "9d",
+          "00a5",
+          "yen sign"
+        ],
+        [
+          "9f",
+          "0192",
+          "latin small letter f with hook"
+        ],
+        [
+          "a4",
+          "00F1",
+          "latin small letter n with tilde"
+        ],
+        [
+          "a5",
+          "00D1",
+          "latin capital letter n with tilde"
+        ],
+        [
+          "86",
+          "00e5",
+          "latin small letter a with ring above"
+        ],
+        [
+          "8b",
+          "00ef",
+          "latin small letter i with diaeresis"
+        ],
+        [
+          "8d",
+          "00ec",
+          "latin small letter i with grave"
+        ],
+        [
+          "94",
+          "00f6",
+          "latin small letter o with diaeresis"
+        ],
+        [
+          "95",
+          "00f2",
+          "latin small letter o with grave"
+        ],
+        [
+          "9b",
+          "00a2",
+          "cent sign"
+        ],
+        [
+          "e1",
+          "00df",
+          "latin small letter sharp s"
+        ]
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_e",
+      "id": 1,
+      "mappings": [
+        [
+          "99",
+          "00D6",
+          "latin capital letter o with diaeresis",
+          {
+            "shift": {
+              "dx": 1
+            }
+          }
+        ],
+        [
+          "98",
+          "0178",
+          "latin capital letter y with diaeresis",
+          {
+            "shift": {
+              "dx": 1
+            }
+          }
+        ],
+        [
+          "9e",
+          "20a7",
+          "peseta sign"
+        ]
+      ]
+    }
+  ]
+}
