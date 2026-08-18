@@ -21,44 +21,28 @@ SCI_FONT_001_E ?= /path/to/source_e
 
 -include Makefile.local
 
-build: woff2s
 
-woff2s: otfs
-	@woff2_compress ./dist/sciAC-font-000.otf
-	@woff2_compress ./dist/sciAC-font-000-free.otf
-	@woff2_compress ./dist/sciAC-font-000-pure.otf
-	@woff2_compress ./dist/sciAC-font-001-free.otf
-	@woff2_compress ./dist/sciAC-font-001-pure.otf
-	@woff2_compress ./dist/sciAC-font-300.otf
-	@woff2_compress ./dist/sciAC-font-300-free.otf
-	@woff2_compress ./dist/sciAC-font-300-pure.otf
-	@woff2_compress ./dist/sciPX-font-000.otf
-	@woff2_compress ./dist/sciPX-font-000-free.otf
-	@woff2_compress ./dist/sciPX-font-000-pure.otf
-	@woff2_compress ./dist/sciPX-font-300.otf
-	@woff2_compress ./dist/sciPX-font-300-free.otf
-	@woff2_compress ./dist/sciPX-font-300-pure.otf
+build: fonts
 
+fonts:
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1   -c none   -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1   -c none   -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist
 
-otfs:
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json --aspect-ratio 1:1 --chamfer none -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json --aspect-ratio 1:1 --chamfer none -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json --aspect-ratio 1:1 --chamfer none -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1   -c none   -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist
 
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json --aspect-ratio 1:1 --chamfer none -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json --aspect-ratio 1:1 --chamfer none -o dist
-
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json --aspect-ratio 1:1.2 --chamfer inside -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json --aspect-ratio 1:1 --chamfer none -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json --aspect-ratio 1:1 --chamfer none -o dist
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json --aspect-ratio 1:1 --chamfer none -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1   -c none   -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1   -c none   -o dist
+	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist
 
 clean:
 	rm -f ./dist/sciAC-*.otf ./dist/sciPX-*.otf ./dist/sciAC-*.woff2 ./dist/sciPX-*.woff2

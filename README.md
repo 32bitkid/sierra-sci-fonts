@@ -8,7 +8,6 @@ into usable OTF/WOFF2 fonts using [@4bitlabs/sciotf](https://github.com/32bitkid
 - `make`
 - [`Node.js`](https://nodejs.org/en) >=24.11.0
 - [`jq`](https://jqlang.org/)
-- `woff2_compress`
 
 ## Aspect Ratio Correction
 
