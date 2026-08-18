@@ -13,7 +13,7 @@ SCI_FONT_300_A ?= /path/to/source_a
 SCI_FONT_300_B ?= /path/to/source_b
 SCI_FONT_300_C ?= /path/to/source_c
 
-# -include Makefile.local
+-include Makefile.local
 
 build: woff2s
 

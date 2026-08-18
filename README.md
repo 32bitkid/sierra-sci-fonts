@@ -5,20 +5,36 @@ into usable OTF/WOFF2 fonts using [@4bitlabs/sciotf](https://github.com/32bitkid
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/en) >=24.11.0
-- [jq](https://jqlang.org/)
-- make
+- `make`
+- [`Node.js`](https://nodejs.org/en) >=24.11.0
+- [`jq`](https://jqlang.org/)
+- `woff2_compress`
 
 ## Supported Fonts
 
 General overview of the glyphs that each version supports.
 
+### FONT.000
+
 | Font                | Basic Latin | Latin-1 Supplement | Aspect Ratio |
 |---------------------|:-----------:|:------------------:|:------------:|
-| SciAC FONT.000      |     ✅      |         ✅         | 1&ratio;1.2  | 
-| SciPX FONT.000      |     ✅      |         ✅         |  1&ratio;1   |
-| SciAC FONT.000 Free |     ✅      |                    | 1&ratio;1.2  |
-| SciPX FONT.000 Free |     ✅      |                    |  1&ratio;1   |
+| `SciAC FONT.000`      |     ✅      |         ✅         | 1&ratio;1.2  | 
+| `SciAC FONT.000 Pure` |     ✅      |      Partial       | 1&ratio;1.2  |
+| `SciAC FONT.000 Free` |     ✅      |                    | 1&ratio;1.2  |
+| `SciPX FONT.000`      |     ✅      |         ✅         |  1&ratio;1   |
+| `SciPX FONT.000 Pure` |     ✅      |      Partial       |  1&ratio;1   |
+| `SciPX FONT.000 Free` |     ✅      |                    |  1&ratio;1   |
+
+### FONT.300
+
+| Font                | Basic Latin | Latin-1 Supplement | Aspect Ratio |
+|---------------------|:-----------:|:------------------:|:------------:|
+| `SciAC FONT.300`      |     ✅      |         ✅         | 1&ratio;1.2  | 
+| `SciAC FONT.300 Pure` |     ✅      |      Partial       | 1&ratio;1.2  |
+| `SciAC FONT.300 Free` |     ✅      |                    | 1&ratio;1.2  |
+| `SciPX FONT.300`      |     ✅      |         ✅         |  1&ratio;1   |
+| `SciPX FONT.300 Pure` |     ✅      |      Partial       |  1&ratio;1   |
+| `SciPX FONT.300 Free` |     ✅      |                    |  1&ratio;1   |
 
 > [!note] 
 > More FONT mappings/definitions will be coming soon for other Sierra SCI0/01 fonts.
@@ -33,13 +49,26 @@ a display aspect-ratio of 1&ratio;1.2 (or the closest integer scaling of 5&ratio
 
 ## Compiling
 
-Update FONT `.json` files to resolve all the *sources* required for that font. See the `README` files in 
-the `./defs` folder for more details on what is required for each font. Once that is done, you can run the
-following to generate an OTF file.
+Create a `Makefile.local` file and resolve all the paths on your local machine. Then run:
 
 ```bash
-npx @4bitlabs/sciotf advanced defs/font.000.free.json --aspect-ratio 1:1.2 --chamfer inner
-npx @4bitlabs/sciotf advanced defs/font.000.free.json --aspect-ratio 1:1 --chamfer none
+make update-defs
+```
+
+This will update all the defs with paths, then you can build fonts with.
+
+```bash
+make build # will build all otfs & woff2
+make otfs  # will build otfs
+```
+
+## Hamd Compiling
+
+Update FONT `.json` files to resolve all the *sources* required for that font. See the `README` files in 
+the `./defs` folder for more details on what is required for each font. Once that is done, you can run the
+following to generate an OTF file. For example, to build `SciAC FONT.000` and `SciPX FONT.000`, you run: 
+
+```bash
 npx @4bitlabs/sciotf advanced defs/font.000.json --aspect-ratio 1:1.2 --chamfer inner
 npx @4bitlabs/sciotf advanced defs/font.000.json --aspect-ratio 1:1 --chamfer none
 ```
