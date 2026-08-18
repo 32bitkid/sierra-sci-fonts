@@ -1,6 +1,6 @@
 {
   "name": "FONT.000",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "chamfer": "inside",
   "pad": {
     "top": 2
@@ -877,7 +877,12 @@
         [
           "a8",
           "00bf",
-          "inverted question mark"
+          "inverted question mark",
+          {
+            "shift": {
+              "dy": 1
+            }
+          }
         ],
         [
           "92",
