@@ -3,6 +3,12 @@
 This repo contains the JSON source files for compiling Sierra On-Line SCI0/01 FONT resources
 into usable OTF/WOFF2 fonts using [@4bitlabs/sciotf](https://github.com/32bitkid/sci.js/tree/main/apps/sciotf).
 
+## Prerequisites
+
+- [Node.js](https://nodejs.org/en) >=24.11.0
+- [jq](https://jqlang.org/)
+- make
+
 ## Supported Fonts
 
 General overview of the glyphs that each version supports.

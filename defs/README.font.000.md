@@ -13,7 +13,7 @@ content that is available, however most are retail releases, and some are _forei
 That makes some sources fairly difficult to track down. You will need _one_ of each source to compile 
 all the glyphs.
 
-1. **Source_A**
+1. `SCI_FONT_000_A`
    - Kings Quest 4 SCI Demo
    - Kings Quest 1 SCI Demo (1989 EGA Remake)
    - Conquests of Camelot Demo
@@ -26,30 +26,33 @@ all the glyphs.
    - Quest for Glory II Demo (with `"engine": "sci01"`)
    - _...most Sierra releases between 1988–1990 will work here._
 
-2. **Source_B**
+2. `SCI_FONT_000_B`
    - Astro Chicken
    - Space Quest III Demo
    - Space Quest III: The Pirates of Pestulon (US)
    - Space Quest III: The Pirates of Pestulon (GERMAN)
    - Space Quest III: The Pirates of Pestulon (ITALIAN)
 
-3. **Source_C**
+3. `SCI_FONT_000_C`
    - Leisure Suit Larry Goes Looking for Love (in Several Wrong Places) (US)
 
-3. **Source_D**
+3. `SCI_FONT_000_D`
    - Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals (US)
 
-4. **Source_E**
+4. `SCI_FONT_000_E`
    - Police Quest II: The Vengeance
 
-5. **Source_F**
+5. `SCI_FONT_000_F`
    - Space Quest III: The Pirates of Pestulon (GERMAN)
 
-6. **Source_G**
+6. `SCI_FONT_000_G`
    - Space Quest III: The Pirates of Pestulon (ITALIAN)
 
-7. **Source_H**
+7. `SCI_FONT_000_H`
    - Leisure Suit Larry III: Passionate Patti in Pursuit of the Pulsating Pectorals (FRENCH)
+
+7. `SCI_FONT_000_I`
+   - King's Quest 4 SCI (US Retail)
 
 ## Glyphs
 

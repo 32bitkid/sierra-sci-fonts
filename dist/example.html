@@ -31,6 +31,20 @@
       font-style: normal;
     }
 
+    @font-face {
+      font-family: 'SciAC FONT.300';
+      src: url('./sciAC-font-300.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'SciPX FONT.300';
+      src: url('./sciPX-font-300.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+
     :root {
       --test-size: calc(16px * 2);
     }
@@ -87,6 +101,16 @@
       font-family: "SciPX FONT.000 Free", sans-serif;
       font-size: var(--test-size);
     }
+
+    .sci.ac.font-300 p {
+      font-family: "SciAC FONT.300", sans-serif;
+      font-size: var(--test-size);
+    }
+
+    .sci.px.font-300 p {
+      font-family: "SciPX FONT.300", sans-serif;
+      font-size: var(--test-size);
+    }
   </style>
 </head>
 <body>
@@ -103,6 +127,28 @@
 
   <figure class="sci px font-000">
     <figcaption>SciPX FONT.000</figcaption>
+    <p>The five boxing wizards jump quickly.</p>
+    <p>25¢ each, or 5 for $1.00.</p>
+    <p lang="fr">Les naïfs ægithales hâtifs d'Aÿ pondant à Noël où il gèle sont sûrs d'être déçus en voyant leurs drôles d'œufs abîmés</p>
+    <p lang="de">Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich</p>
+    <p lang="es">Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú</p>
+    <p lang="ga">D'ith cat mór dubh na héisc lofa go pras</p>
+    <p lang="is">Kæmi ný öxi hér, ykist þjófum nú bæði víl og ádrepa</p>
+  </figure>
+
+  <figure class="sci ac font-300">
+    <figcaption>SciAC FONT.300</figcaption>
+    <p>The five boxing wizards jump quickly.</p>
+    <p>25¢ each, or 5 for $1.00.</p>
+    <p lang="fr">Les naïfs ægithales hâtifs d'Aÿ pondant à Noël où il gèle sont sûrs d'être déçus en voyant leurs drôles d'œufs abîmés</p>
+    <p lang="de">Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich</p>
+    <p lang="es">Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú</p>
+    <p lang="ga">D'ith cat mór dubh na héisc lofa go pras</p>
+    <p lang="is">Kæmi ný öxi hér, ykist þjófum nú bæði víl og ádrepa</p>
+  </figure>
+
+  <figure class="sci px font-300">
+    <figcaption>SciPX FONT.300</figcaption>
     <p>The five boxing wizards jump quickly.</p>
     <p>25¢ each, or 5 for $1.00.</p>
     <p lang="fr">Les naïfs ægithales hâtifs d'Aÿ pondant à Noël où il gèle sont sûrs d'être déçus en voyant leurs drôles d'œufs abîmés</p>

@@ -12,7 +12,7 @@ This definition requires _three_ sources, to fully render. [ScummVM](https://www
 provides downloadable copies of many, if not all, these archived demo releases. You will need
 _one_ of each source to build.
 
-1. **Source_A**
+1. `SCI_FONT_000_A`
    - Kings Quest 4 SCI Demo
    - Kings Quest 1 SCI Demo (1989 EGA Remake)
    - Conquests of Camelot Demo
@@ -23,10 +23,10 @@ _one_ of each source to build.
    - Police Quest 2 Demo
    - Quest for Glory I Demo
    - Quest for Glory II Demo (with `"engine": "sci01"`) 
-2. **Source_B**
+2. `SCI_FONT_000_B`
    - Astro Chicken Demo
    - Space Quest 3 Demo
-3. **Source_C**
+3. `SCI_FONT_000_J`
    - Sierra Christmas Card 1988
 
 ## Glyphs
