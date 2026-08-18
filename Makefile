@@ -13,6 +13,12 @@ SCI_FONT_300_A ?= /path/to/source_a
 SCI_FONT_300_B ?= /path/to/source_b
 SCI_FONT_300_C ?= /path/to/source_c
 
+SCI_FONT_001_A ?= /path/to/source_a
+SCI_FONT_001_B ?= /path/to/source_b
+SCI_FONT_001_C ?= /path/to/source_c
+SCI_FONT_001_D ?= /path/to/source_d
+SCI_FONT_001_E ?= /path/to/source_e
+
 -include Makefile.local
 
 build: woff2s
@@ -52,6 +58,8 @@ clean:
 update-defs: update-font-000-def \
 			 update-font-000-pure-def \
 			 update-font-000-free-def \
+			 update-font-001-pure-def \
+			 update-font-001-free-def \
 			 update-font-300-def \
 			 update-font-300-pure-def \
 			 update-font-300-free-def
@@ -95,7 +103,6 @@ update-font-000-free-def:
 	" ./defs/font.000.free.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.000.free.json
 
-
 update-font-300-def:
 	@TMPFILE=$$(mktemp); \
 	jq "\
@@ -121,3 +128,24 @@ update-font-300-free-def:
 	.sources[0].root = \"$(SCI_FONT_300_A)\" \
 	" ./defs/font.300.free.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.300.free.json
+
+update-font-001-pure-def:
+	@TMPFILE=$$(mktemp); \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_001_A)\" | \
+	.sources[1].root = \"$(SCI_FONT_001_A)\" | \
+	.sources[2].root = \"$(SCI_FONT_001_B)\" | \
+	.sources[3].path = \"$(SCI_FONT_001_C)\" | \
+	.sources[4].root = \"$(SCI_FONT_001_D)\" | \
+	.sources[5].root = \"$(SCI_FONT_001_E)\" \
+	" ./defs/font.001.pure.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.001.pure.json
+
+update-font-001-free-def:
+	@TMPFILE=$$(mktemp) && \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_001_A)\" | \
+	.sources[1].root = \"$(SCI_FONT_001_B)\" \
+	" ./defs/font.001.free.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.001.free.json
+
