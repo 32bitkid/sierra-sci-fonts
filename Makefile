@@ -19,7 +19,9 @@ SCI_FONT_001_C ?= /path/to/source_c
 SCI_FONT_001_D ?= /path/to/source_d
 SCI_FONT_001_E ?= /path/to/source_e
 
--include Makefile.local
+ifneq ($(RESET), 1)
+	-include Makefile.local
+endif
 
 
 build: fonts
