@@ -29,27 +29,41 @@ General overview of the glyphs that each version supports.
 
 ### FONT.000
 
-| Font            | Basic Latin | Latin-1 Supplement | AC (1&ratio;1.2) | PX (1&ratio;1) | 
-|-----------------|:-----------:|:------------------:|:----------------:|:--------------:|
-| `FONT.000`      |     ✅      |         ✅         |        ✅        |       ✅       | 
-| `FONT.000 Pure` |     ✅      |      Partial       |        ✅        |       ✅       |
-| `FONT.000 Free` |     ✅      |                    |        ✅        |       ✅       |
+| Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
+|-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
+| `FONT.000 Free` |             ✅             |                                      |               ✅                |              ✅              |
+| `FONT.000 Pure` |             ✅             |               Partial                |               ✅                |              ✅              |
+| `FONT.000`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
-### FONT.000
+### FONT.001
 
-| Font            | Basic Latin | Latin-1 Supplement | AC (1&ratio;1.2) | PX (1&ratio;1) | 
-|-----------------|:-----------:|:------------------:|:----------------:|:--------------:|
-| `FONT.001 Pure` |     ✅      |      Partial       |        ✅        |       ✅       | 
-| `FONT.001 Free` |     ✅      |                    |        ✅        |       ✅       | 
+| Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
+|-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
+| `FONT.001 Free` |             ✅             |                                      |               ✅                |              ✅              | 
+| `FONT.001 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
 
+### FONT.004
+
+| Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
+|-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
+| `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
+| `FONT.004 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
 
 ### FONT.300
 
-| Font            | Basic Latin | Latin-1 Supplement | AC (1&ratio;1.2) | PX (1&ratio;1) | 
-|-----------------|:-----------:|:------------------:|:----------------:|:--------------:|
-| `FONT.300`      |     ✅      |         ✅         |        ✅        |       ✅       |  
-| `FONT.300 Pure` |     ✅      |      Partial       |        ✅        |       ✅       | 
-| `FONT.300 Free` |     ✅      |                    |        ✅        |       ✅       | 
+| Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
+|-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
+| `FONT.300 Free` |             ✅             |                                      |               ✅                |              ✅              | 
+| `FONT.300 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.300`      |             ✅             |                  ✅                  |               ✅                |              ✅              |  
+
+
+### FONT.999
+
+| Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
+|-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
+| `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
+| `FONT.004 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
 
 > [!note] 
 > More FONT mappings/definitions will be coming soon for other Sierra SCI0/01 fonts.
@@ -66,10 +80,9 @@ This will update all the defs with paths, then you can build fonts with.
 
 ```bash
 make build # will build all otfs & woff2
-make otfs  # will build otfs
 ```
 
-## Hamd Compiling
+## Hand-Compiling Fonts
 
 Update FONT `.json` files to resolve all the *sources* required for that font. See the `README` files in 
 the `./defs` folder for more details on what is required for each font. Once that is done, you can run the
@@ -79,3 +92,5 @@ following to generate an OTF file. For example, to build `SciAC FONT.000` and `S
 npx @4bitlabs/sciotf advanced defs/font.000.json --aspect-ratio 1:1.2 --chamfer inner
 npx @4bitlabs/sciotf advanced defs/font.000.json --aspect-ratio 1:1 --chamfer none
 ```
+
+See `@4bitlabs/sciotf` for full options.

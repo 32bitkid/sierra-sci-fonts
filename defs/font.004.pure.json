@@ -1,0 +1,110 @@
+{
+  "name": "FONT.004 Pure",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 4,
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase",
+        [
+          "01",
+          "26f0",
+          "mountain"
+        ],
+        [
+          "02",
+          "2387",
+          "alternative key symbol",
+          {
+            "shift": {
+              "dx": 1
+            }
+          }
+        ],
+        [
+          "03",
+          "2388",
+          "helm symbol",
+          {
+            "shift": {
+              "dx": 1
+            }
+          }
+        ],
+        [
+          "04",
+          "00a9",
+          "copyright sign"
+        ],
+        [
+          "05",
+          "2122",
+          "trademark symbol"
+        ],
+        [
+          "07",
+          "232b",
+          "erase to the left"
+        ],
+        [
+          "08",
+          "2b7e",
+          "horizontal tab key"
+        ],
+        [
+          "7c",
+          "007c",
+          "vertical line",
+          {
+            "force": true,
+            "trim": {
+              "left": 1
+            }
+          }
+        ],
+        [
+          "31",
+          "0031",
+          "1",
+          {
+            "force": true,
+            "trim": {
+              "right": 1
+            }
+          }
+        ],
+        [
+          "22",
+          "0022",
+          "\"",
+          {
+            "force": true,
+            "trim": {
+              "right": 1
+            }
+          }
+        ],
+        [
+          "2E",
+          "002E",
+          ".",
+          {
+            "force": true,
+            "trim": {
+              "right": 2
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}

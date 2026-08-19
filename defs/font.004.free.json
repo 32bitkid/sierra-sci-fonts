@@ -1,0 +1,56 @@
+{
+  "name": "FONT.004 Free",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 4,
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase",
+        [
+          "01",
+          "26f0",
+          "mountain"
+        ],
+        [
+          "02",
+          "2387",
+          "alternative key symbol"
+        ],
+        [
+          "03",
+          "2388",
+          "helm symbol"
+        ],
+        [
+          "04",
+          "00a9",
+          "copyright sign"
+        ],
+        [
+          "05",
+          "2122",
+          "trademark symbol"
+        ],
+        [
+          "07",
+          "232b",
+          "erase to the left"
+        ],
+        [
+          "08",
+          "2b7e",
+          "horizontal tab key"
+        ]
+      ]
+    }
+  ]
+}

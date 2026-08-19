@@ -19,6 +19,10 @@ SCI_FONT_001_C ?= /path/to/source_c
 SCI_FONT_001_D ?= /path/to/source_d
 SCI_FONT_001_E ?= /path/to/source_e
 
+SCI_FONT_004_A ?= /path/to/source_a
+
+SCI_FONT_999_A ?= /path/to/source_a
+
 ifneq ($(RESET), 1)
 	-include Makefile.local
 endif
@@ -54,9 +58,13 @@ update-defs: update-font-000-def \
 			 update-font-000-free-def \
 			 update-font-001-pure-def \
 			 update-font-001-free-def \
+			 update-font-004-pure-def \
+			 update-font-004-free-def \
 			 update-font-300-def \
 			 update-font-300-pure-def \
-			 update-font-300-free-def
+			 update-font-300-free-def \
+			 update-font-999-pure-def \
+			 update-font-999-free-def
 
 update-font-000-def:
 	@TMPFILE=$$(mktemp); \
@@ -143,3 +151,30 @@ update-font-001-free-def:
 	" ./defs/font.001.free.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.001.free.json
 
+update-font-004-pure-def:
+	@TMPFILE=$$(mktemp); \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_004_A)\" \
+	" ./defs/font.004.pure.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.004.pure.json
+
+update-font-004-free-def:
+	@TMPFILE=$$(mktemp) && \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_004_A)\" \
+	" ./defs/font.004.free.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.004.free.json
+
+update-font-999-pure-def:
+	@TMPFILE=$$(mktemp); \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_999_A)\" \
+	" ./defs/font.999.pure.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.999.pure.json
+
+update-font-999-free-def:
+	@TMPFILE=$$(mktemp) && \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_999_A)\" \
+	" ./defs/font.999.free.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.999.free.json

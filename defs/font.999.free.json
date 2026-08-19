@@ -1,0 +1,21 @@
+{
+  "name": "FONT.999 Free",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 999,
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase"
+      ]
+    }
+  ]
+}
