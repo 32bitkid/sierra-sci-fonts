@@ -48,7 +48,13 @@
         [
           "05",
           "2122",
-          "trademark symbol"
+          "trademark symbol",
+          {
+            "force": true,
+            "shift": {
+              "dx": 1
+            }
+          }
         ],
         [
           "07",
@@ -102,6 +108,303 @@
             "trim": {
               "right": 2
             }
+          }
+        ]
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_b",
+      "id": 4,
+      "mappings": [
+        [
+          "80",
+          "00C7",
+          "latin capital letter c with cedilla"
+        ],
+        [
+          "81",
+          "00FC",
+          "latin small letter u with diaeresis"
+        ],
+        [
+          "82",
+          "00E9",
+          "latin small letter e with acute"
+        ],
+        [
+          "83",
+          "00E2",
+          "latin small letter a with circumflex"
+        ],
+        [
+          "84",
+          "00E4",
+          "latin small letter a with diaeresis"
+        ],
+        [
+          "85",
+          "00E0",
+          "latin small letter a with grave"
+        ],
+        [
+          "86",
+          "00E5",
+          "latin small letter a with ring above"
+        ],
+        [
+          "87",
+          "00E7",
+          "latin small letter c with cedilla"
+        ],
+        [
+          "88",
+          "00EA",
+          "latin small letter e with circumflex"
+        ],
+        [
+          "89",
+          "00EB",
+          "latin small letter e with diaeresis"
+        ],
+        [
+          "8a",
+          "00E8",
+          "latin small letter e with acute"
+        ],
+        [
+          "8b",
+          "00EF",
+          "latin small letter i with diaeresis"
+        ],
+        [
+          "8c",
+          "00EE",
+          "latin small letter i with circumflex"
+        ],
+        [
+          "8d",
+          "00EC",
+          "latin small letter i with grave"
+        ],
+        [
+          "8e",
+          "00C4",
+          "latin capital letter a with diaeresis"
+        ],
+        [
+          "8f",
+          "00C5",
+          "latin capital letter a with ring above"
+        ],
+        [
+          "90",
+          "00C9",
+          "latin capital letter e with acute"
+        ],
+        [
+          "91",
+          "00E6",
+          "latin small letter ae"
+        ],
+        [
+          "92",
+          "00C6",
+          "latin capital letter ae"
+        ],
+        [
+          "93",
+          "00F4",
+          "latin small letter o with circumflex"
+        ],
+        [
+          "94",
+          "00F6",
+          "latin small letter o with diaeresis"
+        ],
+        [
+          "95",
+          "00F2",
+          "latin small letter o with grave"
+        ],
+        [
+          "96",
+          "00FB",
+          "latin small letter u with circumflex"
+        ],
+        [
+          "97",
+          "00F9",
+          "latin small letter u with grave"
+        ],
+        [
+          "98",
+          "00FF",
+          "latin small letter y with diaeresis"
+        ],
+        [
+          "99",
+          "00D6",
+          "latin capital letter o with diaeresis"
+        ],
+        [
+          "9a",
+          "00DC",
+          "latin captial letter u with diaeresis"
+        ],
+        [
+          "9b",
+          "00F8",
+          "cents sign"
+        ],
+        [
+          "9c",
+          "00A3",
+          "pound sign"
+        ],
+        [
+          "9d",
+          "00D8",
+          "yen sign"
+        ],
+        [
+          "9e",
+          "00D7",
+          "peseta sign"
+        ],
+        [
+          "9f",
+          "0192",
+          "latin small letter f with hook"
+        ],
+        [
+          "a0",
+          "00E1",
+          "latin small letter a with acute"
+        ],
+        [
+          "a1",
+          "00ED",
+          "latin small letter i with acute"
+        ],
+        [
+          "a2",
+          "00F3",
+          "latin small letter o with acute"
+        ],
+        [
+          "a3",
+          "00FA",
+          "latin small letter u with acute"
+        ],
+        [
+          "a4",
+          "00F1",
+          "latin small letter n with tilde"
+        ],
+        [
+          "a5",
+          "00D1",
+          "capital small letter n with tilde"
+        ],
+        [
+          "a6",
+          "00AA",
+          "feminine ordinal indicator"
+        ],
+        [
+          "a7",
+          "00BA",
+          "masculine ordinal indicator"
+        ],
+        [
+          "a8",
+          "00BF",
+          "inverted question mark"
+        ],
+        [
+          "e1",
+          "00df",
+          "latin small letter sharp s"
+        ]
+      ]
+    },
+    {
+      "type": "patch",
+      "path": "/path/to/source_c",
+      "mappings": [
+        [
+          "23",
+          "00a1",
+          "inverted exclamation mark",
+          {
+            "force": true,
+            "shift": {
+              "dx": 1
+            }
+          }
+        ],
+        [
+          "26",
+          "00BF",
+          "inverted question mark",
+          {
+            "force": true,
+            "pad": {
+              "bottom": 1
+            },
+            "shift": {
+              "dx": 1,
+              "dy": 1
+            }
+          }
+        ],
+        [
+          "5E",
+          "00FC",
+          "latin small letter u with diaeresis",
+          {
+            "force": true
+          }
+        ],
+        [
+          "7B",
+          "00E1",
+          "latin small letter a with acute",
+          {
+            "force": true
+          }
+        ],
+        [
+          "7D",
+          "00E9",
+          "latin small letter e with acute",
+          {
+            "force": true
+          }
+        ],
+        [
+          "5B",
+          "00ED",
+          "latin small letter i with acute",
+          {
+            "force": true
+          }
+        ],
+        [
+          "5D",
+          "00F3",
+          "latin small letter o with acute",
+          {
+            "force": true
+          }
+        ],
+        [
+          "7C",
+          "00FA",
+          "latin small letter u with acute",
+          {
+            "force": true
           }
         ]
       ]

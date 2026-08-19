@@ -20,6 +20,8 @@ SCI_FONT_001_D ?= /path/to/source_d
 SCI_FONT_001_E ?= /path/to/source_e
 
 SCI_FONT_004_A ?= /path/to/source_a
+SCI_FONT_004_B ?= /path/to/source_b
+SCI_FONT_004_C ?= /path/to/source_c
 
 SCI_FONT_999_A ?= /path/to/source_a
 
@@ -154,7 +156,9 @@ update-font-001-free-def:
 update-font-004-pure-def:
 	@TMPFILE=$$(mktemp); \
 	jq "\
-	.sources[0].root = \"$(SCI_FONT_004_A)\" \
+	.sources[0].root = \"$(SCI_FONT_004_A)\" | \
+	.sources[1].root = \"$(SCI_FONT_004_B)\" | \
+	.sources[2].path = \"$(SCI_FONT_004_C)\" \
 	" ./defs/font.004.pure.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.004.pure.json
 
