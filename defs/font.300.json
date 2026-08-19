@@ -116,6 +116,229 @@
           "16",
           "25ac",
           "black rectangle"
+        ],
+        [
+          "54",
+          "0054",
+          "",
+          {
+            "force": true,
+            "trim": {
+              "right": 1
+            }
+          }
+        ],
+        [
+          "66",
+          "100000",
+          "fi ligature",
+          {
+            "pad": {
+              "right": 2
+            },
+            "xor": [
+              "        ",
+              "     xx ",
+              "        ",
+              "     xx ",
+              "      x ",
+              "      x ",
+              "      x ",
+              "      x ",
+              "     xxx"
+            ],
+            "dlig": [
+              "66",
+              "69"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100001",
+          "fl ligature",
+          {
+            "pad": {
+              "right": 3
+            },
+            "xor": [
+              "       ",
+              "     xx",
+              "      x",
+              "      x",
+              "      x",
+              "      x",
+              "      x",
+              "      x",
+              "     xxx"
+            ],
+            "dlig": [
+              "66",
+              "6C"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100002",
+          "fj ligature",
+          {
+            "pad": {
+              "right": 2
+            },
+            "xor": [
+              "       ",
+              "     x ",
+              "       ",
+              "     xx",
+              "      x",
+              "      x",
+              "      x",
+              "      x",
+              "   x x ",
+              "    x  "
+            ],
+            "dlig": [
+              "66",
+              "6A"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100003",
+          "ffi ligature",
+          {
+            "pad": {
+              "right": 7
+            },
+            "xor": [
+              "            ",
+              "       xxxx ",
+              "      x     ",
+              "    xxxx xx ",
+              "      x   x ",
+              "      x   x ",
+              "      x   x ",
+              "      x   x ",
+              "     xxx xxx"
+            ],
+            "dlig": [
+              "66",
+              "66",
+              "69"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100006",
+          "ffl ligature",
+          {
+            "pad": {
+              "right": 7
+            },
+            "xor": [
+              "            ",
+              "       xxxx ",
+              "      x   x ",
+              "    xxxx  x ",
+              "      x   x ",
+              "      x   x ",
+              "      x   x ",
+              "      x   x ",
+              "     xxx xxx"
+            ],
+            "dlig": [
+              "66",
+              "66",
+              "6C"
+            ]
+          }
+        ],
+        [
+          "71",
+          "100004",
+          "qu ligature",
+          {
+            "pad": {
+              "right": 6,
+              "bottom": 2
+            },
+            "xor": [
+              "              ",
+              "              ",
+              "              ",
+              "      xxx  xx ",
+              "     xx x   x ",
+              "     xx x   x ",
+              "    x x x  xx ",
+              "   xxxx x x x ",
+              " x x xx xx  xx",
+              "      x       ",
+              "     xx       ",
+              "     x        "
+            ],
+            "dlig": [
+              "71",
+              "75"
+            ]
+          }
+        ],
+        [
+          "54",
+          "100005",
+          "Th ligature",
+          {
+            "pad": {
+              "right": 5
+            },
+            "xor": [
+              "         x    ",
+              "        x     ",
+              "       xx     ",
+              "        x     ",
+              "        x  x  ",
+              "        x x x ",
+              "        xx  x ",
+              "        x   x ",
+              "       xx  xxx",
+              "              ",
+              "              "
+            ],
+            "dlig": [
+              "54",
+              "68"
+            ]
+          }
+        ],
+        [
+          "6D",
+          "100007",
+          "Th ligature",
+          {
+            "pad": {
+              "right": 6,
+              "bottom": 1
+            },
+            "xor": [
+              "                  ",
+              "                  ",
+              "            x     ",
+              "             x xx ",
+              "             xx  x",
+              "             x   x",
+              "             x   x",
+              "             x  x ",
+              "             xxx  ",
+              "             x    ",
+              "            xxx   "
+            ],
+            "dlig": [
+              "6D",
+              "70"
+            ]
+          }
         ]
       ]
     },

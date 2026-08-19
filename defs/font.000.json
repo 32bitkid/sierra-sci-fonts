@@ -998,6 +998,82 @@
           "e1",
           "00df",
           "latin small letter sharp s"
+        ],
+        [
+          "66",
+          "100000",
+          "fi ligature",
+          {
+            "pad": {
+              "right": 3
+            },
+            "xor": [
+              "         ",
+              "         ",
+              "      xx ",
+              "       xx",
+              "         ",
+              "      xxx",
+              "       xx",
+              "       xx",
+              "      xxx"
+            ],
+            "dlig": [
+              "66",
+              "69"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100001",
+          "fl ligature",
+          {
+            "pad": {
+              "right": 3
+            },
+            "xor": [
+              "         ",
+              "         ",
+              "      xxx",
+              "       xx",
+              "       xx",
+              "       xx",
+              "       xx",
+              "       xx",
+              "      xxx"
+            ],
+            "dlig": [
+              "66",
+              "6C"
+            ]
+          }
+        ],
+        [
+          "66",
+          "100002",
+          "fj ligature",
+          {
+            "pad": {
+              "right": 3
+            },
+            "xor": [
+              "         ",
+              "         ",
+              "      xx ",
+              "       xx",
+              "         ",
+              "      xxx",
+              "       xx",
+              "       xx",
+              "       xx",
+              "     xxx "
+            ],
+            "dlig": [
+              "66",
+              "6A"
+            ]
+          }
         ]
       ]
     },
