@@ -1,6 +1,7 @@
 {
+  "$schemaVersion": "v1",
   "name": "FONT.300",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "chamfer": "inside",
   "pad": {
     "top": 1
@@ -15,328 +16,434 @@
         [
           "00",
           "2592",
-          "medium shade"
+          {
+            "name": "medium shade"
+          }
         ],
         [
           "01",
           "26f0",
-          "mountain"
+          {
+            "name": "mountain"
+          }
         ],
         [
           "02",
           "2387",
-          "alternative key symbol"
+          {
+            "name": "alternative key symbol"
+          }
         ],
         [
           "03",
           "2388",
-          "helm symbol"
+          {
+            "name": "helm symbol"
+          }
         ],
         [
           "04",
-          "00a9",
-          "copyright sign"
+          "00a9"
         ],
         [
           "05",
           "2122",
-          "trademark symbol"
+          {
+            "name": "trademark symbol"
+          }
         ],
         [
           "07",
           "2022",
-          "bullet"
+          {
+            "name": "bullet"
+          }
         ],
         [
           "08",
           "232b",
-          "erase to the left"
+          {
+            "name": "erase to the left"
+          }
         ],
         [
           "09",
           "2b7e",
-          "horizontal tab key"
+          {
+            "name": "horizontal tab key"
+          }
         ],
         [
           "0b",
           "E000",
-          "???"
+          {
+            "name": "Unknown"
+          }
         ],
         [
           "10",
           "25b6",
-          "black right-pointing triangle"
+          {
+            "name": "black right-pointing triangle"
+          }
         ],
         [
           "11",
           "25c2",
-          "black left-pointing triangle"
+          {
+            "name": "black left-pointing triangle"
+          }
         ],
         [
           "1e",
           "25b2",
-          "black up-pointing triangle"
+          {
+            "name": "black up-pointing triangle"
+          }
         ],
         [
           "1f",
           "25bc",
-          "black down-pointing triangle"
+          {
+            "name": "black down-pointing triangle"
+          }
         ],
         [
           "18",
           "2191",
-          "up-pointing arrow"
+          {
+            "name": "up-pointing arrow"
+          }
         ],
         [
           "19",
           "2193",
-          "down-pointing arrow"
+          {
+            "name": "down-pointing arrow"
+          }
         ],
         [
           "1a",
           "2192",
-          "right-pointing arrow"
+          {
+            "name": "right-pointing arrow"
+          }
         ],
         [
           "1b",
           "2190",
-          "left-pointing arrow"
+          {
+            "name": "left-pointing arrow"
+          }
         ],
         [
           "12",
           "2195",
-          "vertical-pointing arrow"
+          {
+            "name": "vertical-pointing arrow"
+          }
         ],
         [
           "1d",
           "2194",
-          "horizontal-pointing arrow"
+          {
+            "name": "horizontal-pointing arrow"
+          }
         ],
         [
           "16",
           "25ac",
-          "black rectangle"
+          {
+            "name": "black rectangle"
+          }
         ],
         [
           "54",
           "0054",
-          "",
           {
-            "force": true,
-            "trim": {
-              "right": 1
-            }
+            "overwrite": true,
+            "actions": [
+              {
+                "trim": {
+                  "right": 1
+                }
+              }
+            ]
           }
         ],
         [
           "66",
           "100000",
-          "fi ligature",
           {
-            "pad": {
-              "right": 2
-            },
-            "xor": [
-              "        ",
-              "     xx ",
-              "        ",
-              "     xx ",
-              "      x ",
-              "      x ",
-              "      x ",
-              "      x ",
-              "     xxx"
-            ],
-            "dlig": [
-              "66",
-              "69"
+            "name": "fi ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "     ## ",
+                  "        ",
+                  "     ## ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "     ###"
+                ]
+              },
+              {
+                "dlig": [
+                  "66",
+                  "69"
+                ]
+              }
             ]
           }
         ],
         [
           "66",
           "100001",
-          "fl ligature",
           {
-            "pad": {
-              "right": 3
-            },
-            "xor": [
-              "       ",
-              "     xx",
-              "      x",
-              "      x",
-              "      x",
-              "      x",
-              "      x",
-              "      x",
-              "     xxx"
-            ],
-            "dlig": [
-              "66",
-              "6C"
+            "name": "fl ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "     ## ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "      # ",
+                  "     ###"
+                ]
+              },
+              {
+                "dlig": [
+                  "66",
+                  "6C"
+                ]
+              }
             ]
           }
         ],
         [
           "66",
           "100002",
-          "fj ligature",
           {
-            "pad": {
-              "right": 2
-            },
-            "xor": [
-              "       ",
-              "     x ",
-              "       ",
-              "     xx",
-              "      x",
-              "      x",
-              "      x",
-              "      x",
-              "   x x ",
-              "    x  "
-            ],
-            "dlig": [
-              "66",
-              "6A"
+            "name": "fj ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "       ",
+                  "     # ",
+                  "       ",
+                  "     ##",
+                  "      #",
+                  "      #",
+                  "      #",
+                  "      #",
+                  "   # # ",
+                  "    #  "
+                ]
+              },
+              {
+                "dlig": [
+                  "66",
+                  "6A"
+                ]
+              }
             ]
           }
         ],
         [
           "66",
           "100003",
-          "ffi ligature",
           {
-            "pad": {
-              "right": 7
-            },
-            "xor": [
-              "            ",
-              "       xxxx ",
-              "      x     ",
-              "    xxxx xx ",
-              "      x   x ",
-              "      x   x ",
-              "      x   x ",
-              "      x   x ",
-              "     xxx xxx"
-            ],
-            "dlig": [
-              "66",
-              "66",
-              "69"
+            "name": "ffi ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 7
+                }
+              },
+              {
+                "xor": [
+                  "            ",
+                  "       #### ",
+                  "      #     ",
+                  "    #### ## ",
+                  "      #   # ",
+                  "      #   # ",
+                  "      #   # ",
+                  "      #   # ",
+                  "     ### ###"
+                ]
+              },
+              {
+                "dlig": [
+                  "66",
+                  "66",
+                  "69"
+                ]
+              }
             ]
           }
         ],
         [
           "66",
           "100006",
-          "ffl ligature",
           {
-            "pad": {
-              "right": 7
-            },
-            "xor": [
-              "            ",
-              "       xxxx ",
-              "      x   x ",
-              "    xxxx  x ",
-              "      x   x ",
-              "      x   x ",
-              "      x   x ",
-              "      x   x ",
-              "     xxx xxx"
-            ],
-            "dlig": [
-              "66",
-              "66",
-              "6C"
+            "name": "ffl ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 7
+                }
+              },
+              {
+                "xor": [
+                  "            ",
+                  "       #### ",
+                  "      #   # ",
+                  "    ####  # ",
+                  "      #   # ",
+                  "      #   # ",
+                  "      #   # ",
+                  "      #   # ",
+                  "     ### ###"
+                ]
+              },
+              {
+                "dlig": [
+                  "66",
+                  "66",
+                  "6C"
+                ]
+              }
             ]
           }
         ],
         [
           "71",
           "100004",
-          "qu ligature",
           {
-            "pad": {
-              "right": 6,
-              "bottom": 2
-            },
-            "xor": [
-              "              ",
-              "              ",
-              "              ",
-              "      xxx  xx ",
-              "     xx x   x ",
-              "     xx x   x ",
-              "    x x x  xx ",
-              "   xxxx x x x ",
-              " x x xx xx  xx",
-              "      x       ",
-              "     xx       ",
-              "     x        "
-            ],
-            "dlig": [
-              "71",
-              "75"
+            "name": "qu ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 6,
+                  "bottom": 2
+                }
+              },
+              {
+                "xor": [
+                  "              ",
+                  "              ",
+                  "              ",
+                  "      ###  ## ",
+                  "     ## #   # ",
+                  "     ## #   # ",
+                  "    # # #  ## ",
+                  "   #### # # # ",
+                  " # # ## ##  ##",
+                  "      #       ",
+                  "     ##       ",
+                  "     #        "
+                ]
+              },
+              {
+                "dlig": [
+                  "71",
+                  "75"
+                ]
+              }
             ]
           }
         ],
         [
           "54",
           "100005",
-          "Th ligature",
           {
-            "pad": {
-              "right": 5
-            },
-            "xor": [
-              "         x    ",
-              "        x     ",
-              "       xx     ",
-              "        x     ",
-              "        x  x  ",
-              "        x x x ",
-              "        xx  x ",
-              "        x   x ",
-              "       xx  xxx",
-              "              ",
-              "              "
-            ],
-            "dlig": [
-              "54",
-              "68"
+            "name": "Th ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 5
+                }
+              },
+              {
+                "xor": [
+                  "         #    ",
+                  "        #     ",
+                  "       ##     ",
+                  "        #     ",
+                  "        #  #  ",
+                  "        # # # ",
+                  "        ##  # ",
+                  "        #   # ",
+                  "       ##  ###",
+                  "              ",
+                  "              "
+                ]
+              },
+              {
+                "dlig": [
+                  "54",
+                  "68"
+                ]
+              }
             ]
           }
         ],
         [
           "6D",
           "100007",
-          "Th ligature",
           {
-            "pad": {
-              "right": 6,
-              "bottom": 1
-            },
-            "xor": [
-              "                  ",
-              "                  ",
-              "            x     ",
-              "             x xx ",
-              "             xx  x",
-              "             x   x",
-              "             x   x",
-              "             x  x ",
-              "             xxx  ",
-              "             x    ",
-              "            xxx   "
-            ],
-            "dlig": [
-              "6D",
-              "70"
+            "name": "Th ligature",
+            "actions": [
+              {
+                "pad": {
+                  "right": 6,
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "                  ",
+                  "                  ",
+                  "            #     ",
+                  "             # ## ",
+                  "             ##  #",
+                  "             #   #",
+                  "             #   #",
+                  "             #  # ",
+                  "             ###  ",
+                  "             #    ",
+                  "            ###   "
+                ]
+              },
+              {
+                "dlig": [
+                  "6D",
+                  "70"
+                ]
+              }
             ]
           }
         ]
@@ -349,73 +456,65 @@
       "mappings": [
         [
           "82",
-          "00E9",
-          "latin small letter e with acute"
+          "00E9"
         ],
         [
           "85",
-          "00E0",
-          "latin small letter a with grave"
+          "00E0"
         ],
         [
           "86",
-          "00E5",
-          "latin small letter a with ring above"
+          "00E5"
         ],
         [
           "89",
-          "00EB",
-          "latin small letter e with diaeresis"
+          "00EB"
         ],
         [
           "8a",
-          "00E8",
-          "latin small letter e with grave"
+          "00E8"
         ],
         [
           "8b",
-          "00EF",
-          "latin small letter i with diaeresis"
+          "00EF"
         ],
         [
           "92",
-          "00C6",
-          "latin capital letter ae"
+          "00C6"
         ],
         [
           "9b",
-          "00a2",
-          "cent sign"
+          "00a2"
         ],
         [
           "9c",
-          "00a3",
-          "pound sign"
+          "00a3"
         ],
         [
           "9d",
-          "00a5",
-          "yen sign"
+          "00a5"
         ],
         [
           "9e",
           "20a7",
-          "peseta sign"
+          {
+            "name": "peseta sign"
+          }
         ],
         [
           "9f",
           "0192",
-          "latin small letter f with hook"
+          {
+            "name": "latin small letter f with hook"
+          }
         ],
         [
           "a0",
-          "00E1",
-          "latin small letter a with acute"
+          "00E1"
         ],
         [
           "e1",
-          "00df",
-          "latin small letter sharp s"
+          "00df"
         ]
       ]
     },
@@ -426,13 +525,11 @@
       "mappings": [
         [
           "23",
-          "00a1",
-          "inverted exclamation mark"
+          "00a1"
         ],
         [
           "26",
-          "00bf",
-          "inverted question mark"
+          "00bf"
         ]
       ]
     },
@@ -444,846 +541,1575 @@
         [
           "3C",
           "00ab",
-          "Left-pointing double angle quotation mark",
           {
-            "pad": {
-              "right": 1
-            },
-            "xor": [
-              "       ",
-              "     x ",
-              "    x  ",
-              "      x",
-              "     x ",
-              "    x  ",
-              "     x ",
-              "      x",
-              "    x  ",
-              "     x "
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "       ",
+                  "     # ",
+                  "    #  ",
+                  "      #",
+                  "     # ",
+                  "    #  ",
+                  "     # ",
+                  "      #",
+                  "    #  ",
+                  "     # "
+                ]
+              }
             ]
           }
         ],
         [
           "3E",
           "00bb",
-          "Left-pointing double angle quotation mark",
           {
-            "pad": {
-              "left": 1
-            },
-            "xor": [
-              "        ",
-              "  x     ",
-              "   x    ",
-              " x      ",
-              "  x     ",
-              "   x    ",
-              "  x     ",
-              " x      ",
-              "   x    ",
-              "  x     "
+            "actions": [
+              {
+                "pad": {
+                  "left": 1
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "  #     ",
+                  "   #    ",
+                  " #      ",
+                  "  #     ",
+                  "   #    ",
+                  "  #     ",
+                  " #      ",
+                  "   #    ",
+                  "  #     "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C0",
-          "Latin Capital Letter A with grave",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    x     ",
-              "     x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    #     ",
+                  "     #    "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C1",
-          "Latin Capital Letter A with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x    ",
-              "    x     "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     #    ",
+                  "    #     "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C2",
-          "Latin Capital Letter A with circumflex",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    xx    ",
-              "   x  x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    ##    ",
+                  "   #  #   "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C3",
-          "Latin Capital Letter A with tilde",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   xx  x  ",
-              "  x  xx  ",
-              "     x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   ##  #  ",
+                  "  #  ##   ",
+                  "     #    "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C4",
-          "Latin Capital Letter A with diaeresis",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x  x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   #  #   "
+                ]
+              }
             ]
           }
         ],
         [
           "41",
           "00C5",
-          "Latin Capital letter A with ring above",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    xx    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    ##    "
+                ]
+              }
             ]
           }
         ],
         [
           "43",
           "00C7",
-          "Latin Capital letter C with cedilla",
           {
-            "pad": {
-              "bottom": 1
-            },
-            "xor": [
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "   x    ",
-              "  x     "
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "   #    ",
+                  "  #     "
+                ]
+              }
             ]
           }
         ],
         [
           "45",
           "00C8",
-          "Latin Capital letter E with grave",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x     ",
-              "    x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   #     ",
+                  "    #    "
+                ]
+              }
             ]
           }
         ],
         [
           "45",
           "00C9",
-          "Latin Capital letter E with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x    ",
-              "    x     "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     #    ",
+                  "    #     "
+                ]
+              }
             ]
           }
         ],
         [
           "45",
           "00CA",
-          "Latin Capital letter E with circumflex",
           {
-            "pad": {
-              "top": 2
-            },
-            "xor": [
-              "    x    ",
-              "   x x   ",
-              "          "
+            "actions": [
+              {
+                "pad": {
+                  "top": 2
+                }
+              },
+              {
+                "xor": [
+                  "    #     ",
+                  "   # #    ",
+                  "          "
+                ]
+              }
             ]
           }
         ],
         [
           "45",
           "00CB",
-          "Latin Capital letter E with diaeresis",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "49",
           "00CC",
-          "Latin Capital letter I with grave",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              " x   ",
-              "  x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  " #    ",
+                  "  #   "
+                ]
+              }
             ]
           }
         ],
         [
           "49",
           "00CD",
-          "Latin Capital letter I with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x  ",
-              "  x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   #   ",
+                  "  #    "
+                ]
+              }
             ]
           }
         ],
         [
           "49",
           "00CE",
-          "Latin Capital letter I with circumflex",
           {
-            "pad": {
-              "top": 2
-            },
-            "xor": [
-              "  x  ",
-              " x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 2
+                }
+              },
+              {
+                "xor": [
+                  "  #   ",
+                  " # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "49",
           "00CF",
-          "Latin Capital letter I with diaeresis",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              " x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  " # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "44",
           "00D0",
-          "Latin Capital letter Eth",
           {
-            "xor": [
-              "    ",
-              "    ",
-              "    ",
-              "    ",
-              " x xx"
+            "actions": [
+              {
+                "xor": [
+                  "     ",
+                  "     ",
+                  "     ",
+                  "     ",
+                  " # ##"
+                ]
+              }
             ]
           }
         ],
         [
           "4E",
           "00D1",
-          "Latin Capital Letter N with Tilde",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x x  ",
-              "    x x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     # #  ",
+                  "    # #   "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D2",
-          "Latin Capital letter O with grave",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x   ",
-              "    x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   #    ",
+                  "    #   "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D3",
-          "Latin Capital letter O with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x  ",
-              "    x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     #   ",
+                  "    #    "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D4",
-          "Latin Capital letter O with circumflex",
           {
-            "pad": {
-              "top": 2
-            },
-            "xor": [
-              "    x  ",
-              "   x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 2
+                }
+              },
+              {
+                "xor": [
+                  "    #   ",
+                  "   # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D5",
-          "Latin Capital letter O with tilde",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    x x  ",
-              "   x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    # #  ",
+                  "   # #   "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D6",
-          "Latin Capital letter O with diaeresis",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "   x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "   # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "4F",
           "00D8",
-          "Latin Capital letter O with stoke",
           {
-            "xor": [
-              "         ",
-              "      xx ",
-              "      xx ",
-              "     x   ",
-              "    x    ",
-              "   x     ",
-              "  x      ",
-              "         ",
-              "x        "
+            "actions": [
+              {
+                "xor": [
+                  "         ",
+                  "      ## ",
+                  "      ## ",
+                  "     #   ",
+                  "    #    ",
+                  "   #     ",
+                  "  #      ",
+                  "         ",
+                  "#        "
+                ]
+              }
             ]
           }
         ],
         [
           "55",
           "00D9",
-          "Latin Capital letter U with grave",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    x   ",
-              "     x   "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    #    ",
+                  "     #   "
+                ]
+              }
             ]
           }
         ],
         [
           "55",
           "00DA",
-          "Latin Capital letter U with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "      x  ",
-              "     x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "      #   ",
+                  "     #    "
+                ]
+              }
             ]
           }
         ],
         [
           "55",
           "00DB",
-          "Latin Capital letter U with circumflex",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x  ",
-              "    x x  ",
-              "   x   x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     #    ",
+                  "    # #   ",
+                  "   #   #  "
+                ]
+              }
             ]
           }
         ],
         [
           "55",
           "00DC",
-          "Latin Capital letter U with diaeresis",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "    x x  "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "    # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "59",
           "00DD",
-          "Latin Capital Letter Y with acute",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "     x  ",
-              "    x    "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "     #   ",
+                  "    #    "
+                ]
+              }
             ]
           }
         ],
         [
           "61",
           "00E2",
-          "Latin Small Letter A with tilde",
           {
-            "xor": [
-              "   x   ",
-              "  x x  "
+            "actions": [
+              {
+                "xor": [
+                  "   #   ",
+                  "  # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "61",
           "00E3",
-          "Latin Small Letter A with tilde",
           {
-            "xor": [
-              "   x x   ",
-              "  x x    "
+            "actions": [
+              {
+                "xor": [
+                  "   # #   ",
+                  "  # #    "
+                ]
+              }
             ]
           }
         ],
         [
           "61",
           "00E4",
-          "Latin Small Letter A with diaeresis",
           {
-            "xor": [
-              "        ",
-              "  x x   "
+            "actions": [
+              {
+                "xor": [
+                  "        ",
+                  "  # #   "
+                ]
+              }
             ]
           }
         ],
         [
           "63",
           "00E7",
-          "Latin Small Letter C with cedilla",
           {
-            "xor": [
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "        ",
-              "   x    ",
-              "  x     "
+            "actions": [
+              {
+                "xor": [
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "        ",
+                  "   #    ",
+                  "  #     "
+                ]
+              }
             ]
           }
         ],
         [
           "65",
           "00EA",
-          "Latin Small Letter I with grave",
           {
-            "xor": [
-              "   x  ",
-              "  x x "
+            "actions": [
+              {
+                "xor": [
+                  "   #  ",
+                  "  # # "
+                ]
+              }
             ]
           }
         ],
         [
           "69",
           "00EC",
-          "Latin Small Letter I with grave",
           {
-            "xor": [
-              " x  ",
-              "    "
+            "actions": [
+              {
+                "xor": [
+                  " #  ",
+                  "    "
+                ]
+              }
             ]
           }
         ],
         [
           "69",
           "00ED",
-          "Latin Small Letter I with acute",
           {
-            "xor": [
-              "  x ",
-              " xx "
+            "actions": [
+              {
+                "xor": [
+                  "  # ",
+                  " ## "
+                ]
+              }
             ]
           }
         ],
         [
           "69",
           "00EE",
-          "Latin Small Letter I with circumflex",
           {
-            "xor": [
-              "  x ",
-              " xxx "
+            "actions": [
+              {
+                "xor": [
+                  "  #  ",
+                  " ### "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F0",
-          "Latin Small Letter Eth",
           {
-            "pad": {
-              "top": 1
-            },
-            "xor": [
-              "      ",
-              " x  x ",
-              "  xx  ",
-              " x x  ",
-              "  xx  ",
-              " xxx  ",
-              "    x ",
-              "      ",
-              "    xx",
-              "    x "
+            "actions": [
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "xor": [
+                  "      ",
+                  " #  # ",
+                  "  ##  ",
+                  " # #  ",
+                  "  ##  ",
+                  " ###  ",
+                  "    # ",
+                  "      ",
+                  "    ##",
+                  "    # "
+                ]
+              }
             ]
           }
         ],
         [
           "6E",
           "00F1",
-          "Latin Small Letter N with tilde",
           {
-            "xor": [
-              "    x x  ",
-              "   x x   "
+            "actions": [
+              {
+                "xor": [
+                  "    # #  ",
+                  "   # #   "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F2",
-          "Latin Small Letter O with grave",
           {
-            "xor": [
-              "  x   ",
-              "   x  "
+            "actions": [
+              {
+                "xor": [
+                  "  #   ",
+                  "   #  "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F3",
-          "Latin Small Letter O with acute",
           {
-            "xor": [
-              "    x  ",
-              "   x   "
+            "actions": [
+              {
+                "xor": [
+                  "    #  ",
+                  "   #   "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F4",
-          "Latin Small Letter O with circumflex",
           {
-            "xor": [
-              "   x   ",
-              "  x x  "
+            "actions": [
+              {
+                "xor": [
+                  "   #   ",
+                  "  # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F5",
-          "Latin Small Letter O with tilde",
           {
-            "xor": [
-              "   x x ",
-              "  x x  "
+            "actions": [
+              {
+                "xor": [
+                  "   # # ",
+                  "  # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "00F6",
-          "Latin Small Letter O with diaeresis",
           {
-            "xor": [
-              "       ",
-              "  x x  "
+            "actions": [
+              {
+                "xor": [
+                  "       ",
+                  "  # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "75",
           "00F9",
-          "Latin Small Letter U with grave",
           {
-            "xor": [
-              "   x   ",
-              "    x  "
+            "actions": [
+              {
+                "xor": [
+                  "   #   ",
+                  "    #  "
+                ]
+              }
             ]
           }
         ],
         [
           "75",
           "00Fa",
-          "Latin Small Letter U with acute",
           {
-            "xor": [
-              "    x  ",
-              "   x   "
+            "actions": [
+              {
+                "xor": [
+                  "    #  ",
+                  "   #   "
+                ]
+              }
             ]
           }
         ],
         [
           "75",
           "00Fb",
-          "Latin Small Letter U with circumflex",
           {
-            "xor": [
-              "    x   ",
-              "   x x  "
+            "actions": [
+              {
+                "xor": [
+                  "    #   ",
+                  "   # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "75",
           "00Fc",
-          "Latin Small Letter U with diaeresis",
           {
-            "xor": [
-              "        ",
-              "  x  x  "
+            "actions": [
+              {
+                "xor": [
+                  "        ",
+                  "  #  #  "
+                ]
+              }
             ]
           }
         ],
         [
           "79",
           "00fd",
-          "Latin Small Letter Y with acute",
           {
-            "xor": [
-              "    x  ",
-              "   x   "
+            "actions": [
+              {
+                "xor": [
+                  "    #  ",
+                  "   #   "
+                ]
+              }
             ]
           }
         ],
         [
           "79",
           "00ff",
-          "Latin Small Letter Y with diaeresis",
           {
-            "xor": [
-              "        ",
-              "  x  x  "
+            "actions": [
+              {
+                "xor": [
+                  "        ",
+                  "  #  #  "
+                ]
+              }
             ]
           }
         ],
         [
           "22",
           "201C",
-          "left double quotation mark",
           {
-            "xor": [
-              "      ",
-              "      ",
-              "      ",
-              "  x x"
+            "name": "left double quotation mark",
+            "actions": [
+              {
+                "xor": [
+                  "      ",
+                  "      ",
+                  "      ",
+                  "  # # "
+                ]
+              }
             ]
           }
         ],
         [
           "22",
           "201D",
-          "right double quotation mark",
           {
-            "xor": [
-              "      ",
-              "xxxx  ",
-              "      ",
-              " x x  "
+            "name": "right double quotation mark",
+            "actions": [
+              {
+                "xor": [
+                  "      ",
+                  "####  ",
+                  "      ",
+                  " # #  "
+                ]
+              }
             ]
           }
         ],
         [
           "7C",
           "00A6",
-          "Broken bar",
           {
-            "xor": [
-              "   ",
-              "   ",
-              "   ",
-              "   ",
-              "  x",
-              "  x",
-              "   ",
-              "   ",
-              "   ",
-              "  x"
+            "actions": [
+              {
+                "xor": [
+                  "   ",
+                  "   ",
+                  "   ",
+                  "   ",
+                  "  #",
+                  "  #",
+                  "   ",
+                  "   ",
+                  "   ",
+                  "  #"
+                ]
+              }
             ]
           }
         ],
         [
           "6F",
           "0153",
-          "latin small ligature oe",
           {
-            "pad": {
-              "right": 4
-            },
-            "xor": [
-              "          ",
-              "          ",
-              "          ",
-              "      xxx ",
-              "         x",
-              "        x ",
-              "      xx  ",
-              "     x   x",
-              "      xxx"
+            "name": "latin small ligature oe",
+            "actions": [
+              {
+                "pad": {
+                  "right": 4
+                }
+              },
+              {
+                "xor": [
+                  "          ",
+                  "          ",
+                  "          ",
+                  "      ### ",
+                  "         #",
+                  "        # ",
+                  "      ##  ",
+                  "     #   #",
+                  "      ### "
+                ]
+              }
             ]
           }
         ],
         [
           "61",
           "00E6",
-          "latin small ligature ae",
           {
-            "pad": {
-              "right": 3
-            },
-            "xor": [
-              "          ",
-              "          ",
-              "          ",
-              "      xxx ",
-              "         x",
-              "        x ",
-              "      xx  ",
-              "         x",
-              "       xx"
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "          ",
+                  "          ",
+                  "          ",
+                  "      ### ",
+                  "         #",
+                  "        # ",
+                  "      ##  ",
+                  "         #",
+                  "       ## "
+                ]
+              }
             ]
           }
         ],
         [
           "45",
           "0152",
-          "latin captial ligature oe",
           {
-            "pad": {
-              "left": 4
-            },
-            "xor": [
-              "      ",
-              "  xxx x",
-              " x     ",
-              " x     ",
-              " x   x ",
-              " x     ",
-              " x     ",
-              " x   xxx",
-              "  xxxxxx"
+            "name": "latin captial ligature oe",
+            "actions": [
+              {
+                "pad": {
+                  "left": 4
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "  ### # ",
+                  " #      ",
+                  " #      ",
+                  " #   #  ",
+                  " #      ",
+                  " #      ",
+                  " #   ###",
+                  "  ######"
+                ]
+              }
             ]
           }
         ],
         [
           "6f",
           "00FE",
-          "latin small letter thorn",
           {
-            "pad": {
-              "right": 1
-            },
-            "xor": [
-              "       ",
-              "       ",
-              " x     ",
-              " xx  x ",
-              "  x  xx",
-              "     xx",
-              "     xx",
-              "    xx ",
-              " x  x  ",
-              " x     "
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "       ",
+                  "       ",
+                  " #     ",
+                  " ##  # ",
+                  "  #  ##",
+                  "     ##",
+                  "     ##",
+                  "    ## ",
+                  " #  #  ",
+                  " #     "
+                ]
+              }
             ]
           }
         ],
         [
           "49",
           "00DE",
-          "latin captial letter thorn",
           {
-            "pad": {
-              "right": 3
-            },
-            "xor": [
-              "       ",
-              "       ",
-              "       ",
-              "   xxx ",
-              "      x",
-              "     x ",
-              "   xx   "
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "        ",
+                  "        ",
+                  "   ###  ",
+                  "      # ",
+                  "     #  ",
+                  "   ##   "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00A4",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "       ",
+                  "       ",
+                  " x    x",
+                  "  xxxx ",
+                  "  x  x ",
+                  "  x  x ",
+                  "  xxxx ",
+                  " x    x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00A7",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "     ",
+                  "     ",
+                  "  xxx",
+                  " x   ",
+                  "  xx ",
+                  " x  x",
+                  "  xx ",
+                  "    x",
+                  " xxx "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00A8",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "     ",
+                  "  x x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00AA",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "  xx ",
+                  "    x",
+                  "  xxx",
+                  " x  x",
+                  "  xx x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00BA",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "  xxx ",
+                  " x   x",
+                  " x   x",
+                  " x  x ",
+                  "  xx "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "04",
+          "00AE",
+          {
+            "actions": [
+              {
+                "xor": [
+                  "      ",
+                  "      ",
+                  "      ",
+                  "  x   ",
+                  "      ",
+                  "   xx  ",
+                  "      ",
+                  "  xxxx "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00B0",
+          {
+            "actions": [
+              {
+                "xor": [
+                  "  x ",
+                  " x x",
+                  "  x "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "2B",
+          "00B1",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "      ",
+                  "      ",
+                  "      ",
+                  "      ",
+                  "      ",
+                  "      ",
+                  "      ",
+                  " xxxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00B4",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "     ",
+                  "   x ",
+                  "  x  "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "75",
+          "00B5",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "        ",
+                  "        ",
+                  " xx xxx x",
+                  "  xx  xx ",
+                  "  xx  xx ",
+                  "     x  ",
+                  "    xx  x",
+                  " xx x   ",
+                  " x      "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "49",
+          "00B6",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 3,
+                  "right": 2,
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "        x",
+                  "   x   x  ",
+                  "  xxx  x ",
+                  "  xxx  x",
+                  "   xx  x",
+                  "       x",
+                  "       x",
+                  "       x",
+                  "    x xx",
+                  "     x x",
+                  "     x x"
+                ]
+              },
+              {
+                "pad": {
+                  "top": 1
+                }
+              },
+              {
+                "base": -1
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "0009",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 3
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "2E",
+          "00B7",
+          {
+            "actions": [
+              {
+                "shift": {
+                  "dy": -3
+                }
+              },
+              {
+                "trim": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "  x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00D7",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "      ",
+                  "      ",
+                  "      ",
+                  " x   x",
+                  "  x x ",
+                  "   x  ",
+                  "  x x ",
+                  " x   x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "00F7",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "      ",
+                  "      ",
+                  "      ",
+                  "   x  ",
+                  "      ",
+                  " xxxxx",
+                  "      ",
+                  "   x  "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "6F",
+          "00F8",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 1
+                }
+              },
+              {
+                "xor": [
+                  "        ",
+                  "        ",
+                  "        ",
+                  "     xx ",
+                  "     xx ",
+                  "    x   ",
+                  "   x    ",
+                  "        ",
+                  " x      "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "66",
+          "017F",
+          {
+            "advanceWidth": 4,
+            "actions": [
+              {
+                "pad": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "      ",
+                  "     x",
+                  "      ",
+                  "   x  ",
+                  "      "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "60",
+          "2018"
+        ],
+        [
+          "27",
+          "2019"
+        ],
+        [
+          "20",
+          "02c6",
+          {
+            "name": "circumflex",
+            "actions": [
+              {
+                "xor": [
+                  "     ",
+                  "     ",
+                  "  x  ",
+                  " x x ",
+                  "     "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "2E",
+          "2026",
+          {
+            "name": "horizontal ellipsis",
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "comp": [
+                  "2e",
+                  [
+                    2,
+                    0
+                  ]
+                ]
+              },
+              {
+                "comp": [
+                  "2e",
+                  [
+                    4,
+                    0
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "69",
+          "2020",
+          {
+            "name": "dagger",
+            "actions": [
+              {
+                "xor": [
+                  "   ",
+                  " x  ",
+                  "  x",
+                  "   x ",
+                  "   ",
+                  "   ",
+                  "   ",
+                  "   ",
+                  " x x",
+                  "  x "
+                ]
+              }
             ]
           }
         ]
