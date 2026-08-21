@@ -2,3 +2,4 @@ font-tmp/
 *.otf
 *.woff2
 Makefile.local
+dist/
