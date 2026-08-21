@@ -1,0 +1,173 @@
+{
+  "$schemaVersion": "v1",
+  "name": "FONT.200 Free",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 200,
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase",
+        [
+          "00",
+          "2592",
+          {
+            "name": "medium shade"
+          }
+        ],
+        [
+          "01",
+          "26f0",
+          {
+            "name": "mountain"
+          }
+        ],
+        [
+          "02",
+          "2387",
+          {
+            "name": "alternative key symbol"
+          }
+        ],
+        [
+          "03",
+          "2388",
+          {
+            "name": "helm symbol"
+          }
+        ],
+        [
+          "04",
+          "00a9"
+        ],
+        [
+          "05",
+          "2122",
+          {
+            "name": "trademark symbol"
+          }
+        ],
+        [
+          "07",
+          "2022",
+          {
+            "name": "bullet"
+          }
+        ],
+        [
+          "08",
+          "232b",
+          {
+            "name": "erase to the left"
+          }
+        ],
+        [
+          "09",
+          "2b7e",
+          {
+            "name": "horizontal tab key"
+          }
+        ],
+        [
+          "7f",
+          "2302",
+          {
+            "name": "house"
+          }
+        ],
+        [
+          "10",
+          "25b6",
+          {
+            "name": "black right-pointing triangle"
+          }
+        ],
+        [
+          "11",
+          "25c2",
+          {
+            "name": "black left-pointing triangle"
+          }
+        ],
+        [
+          "1e",
+          "25b2",
+          {
+            "name": "black up-pointing triangle"
+          }
+        ],
+        [
+          "1f",
+          "25bc",
+          {
+            "name": "black down-pointing triangle"
+          }
+        ],
+        [
+          "18",
+          "2191",
+          {
+            "name": "up-pointing arrow"
+          }
+        ],
+        [
+          "19",
+          "2193",
+          {
+            "name": "down-pointing arrow"
+          }
+        ],
+        [
+          "1a",
+          "2192",
+          {
+            "name": "right-pointing arrow"
+          }
+        ],
+        [
+          "1b",
+          "2190",
+          {
+            "name": "left-pointing arrow"
+          }
+        ],
+        [
+          "12",
+          "2195",
+          {
+            "name": "vertical-pointing arrow"
+          }
+        ],
+        [
+          "1d",
+          "2194",
+          {
+            "name": "horizontal-pointing arrow"
+          }
+        ],
+        [
+          "16",
+          "25ac",
+          {
+            "name": "black rectangle"
+          }
+        ],
+        [
+          "0b",
+          "E000",
+          {
+            "name": "space quest three logo"
+          }
+        ]
+      ]
+    }
+  ]
+}

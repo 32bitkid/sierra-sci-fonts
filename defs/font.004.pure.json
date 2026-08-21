@@ -50,7 +50,6 @@
           "2122",
           "trademark symbol",
           {
-            "force": true,
             "shift": {
               "dx": 1
             }
@@ -338,7 +337,6 @@
           "00a1",
           "inverted exclamation mark",
           {
-            "force": true,
             "shift": {
               "dx": 1
             }

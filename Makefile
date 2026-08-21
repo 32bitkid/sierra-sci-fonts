@@ -9,10 +9,6 @@ SCI_FONT_000_H ?= /path/to/source_h
 SCI_FONT_000_I ?= /path/to/source_i
 SCI_FONT_000_J ?= /path/to/source_j
 
-SCI_FONT_300_A ?= /path/to/source_a
-SCI_FONT_300_B ?= /path/to/source_b
-SCI_FONT_300_C ?= /path/to/source_c
-
 SCI_FONT_001_A ?= /path/to/source_a
 SCI_FONT_001_B ?= /path/to/source_b
 SCI_FONT_001_C ?= /path/to/source_c
@@ -23,42 +19,66 @@ SCI_FONT_004_A ?= /path/to/source_a
 SCI_FONT_004_B ?= /path/to/source_b
 SCI_FONT_004_C ?= /path/to/source_c
 
+SCI_FONT_200_A ?= /path/to/source_a
+
+SCI_FONT_300_A ?= /path/to/source_a
+SCI_FONT_300_B ?= /path/to/source_b
+SCI_FONT_300_C ?= /path/to/source_c
+
 SCI_FONT_999_A ?= /path/to/source_a
+
+#SCIOTF_BIN = "npx -q @4bitlabs/sciotf"
+SCIOTF_BIN = "../sci.js/apps/sciotf/dist/main.mjs"
 
 ifneq ($(RESET), 1)
 	-include Makefile.local
 endif
-
 
 build: fonts
 
 dist-folders:
 	mkdir -p dist/font-000
 	mkdir -p dist/font-001
+	mkdir -p dist/font-004
+	mkdir -p dist/font-200
 	mkdir -p dist/font-300
+	mkdir -p dist/font-999
 
 fonts: dist-folders
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 > ./defs/sciAC-font-000.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 > ./defs/sciAC-font-000.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 > ./defs/sciAC-font-000.pure.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 > ./defs/sciPX-font-000.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 > ./defs/sciPX-font-000.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 > ./defs/sciPX-font-000.pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 --verbose > ./dist/font-000/sciAC-font-000.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 --verbose > ./dist/font-000/sciAC-font-000-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-000 --verbose > ./dist/font-000/sciAC-font-000-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.json      -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 --verbose > ./dist/font-000/sciPX-font-000.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 --verbose > ./dist/font-000/sciPX-font-000-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.000.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-000 --verbose > ./dist/font-000/sciPX-font-000-pure.md
 
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-001 > ./defs/sciAC-font-001.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-001 > ./defs/sciAC-font-001.pure.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-001 > ./defs/sciPX-font-001.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-001 > ./defs/sciPX-font-001.pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-001 --verbose > ./dist/font-001/sciAC-font-001-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-001 --verbose > ./dist/font-001/sciAC-font-001-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.001.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-001 --verbose > ./dist/font-001/sciPX-font-001-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.001.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-001 --verbose > ./dist/font-001/sciPX-font-001-pure.md
 
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 > ./defs/sciAC-font-300.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 > ./defs/sciAC-font-300.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 > ./defs/sciAC-font-300.pure.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 > ./defs/sciPX-font-300.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 > ./defs/sciPX-font-300.free.md
-	@npx -q @4bitlabs/sciotf advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 > ./defs/sciPX-font-300.pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-004 --verbose > ./dist/font-004/sciAC-font-004-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-004 --verbose > ./dist/font-004/sciAC-font-004-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-004 --verbose > ./dist/font-004/sciPX-font-004-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-004 --verbose > ./dist/font-004/sciPX-font-004-pure.md
+
+	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-200 --verbose > ./dist/font-200/sciAC-font-200-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-200 --verbose > ./dist/font-200/sciPX-font-200-free.md
+
+	$(SCIOTF_BIN) advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 --verbose > ./dist/font-300/sciAC-font-300.md
+	$(SCIOTF_BIN) advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 --verbose > ./dist/font-300/sciAC-font-300-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-300 --verbose > ./dist/font-300/sciAC-font-300-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.300.json      -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 --verbose > ./dist/font-300/sciPX-font-300.md
+	$(SCIOTF_BIN) advanced ./defs/font.300.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 --verbose > ./dist/font-300/sciPX-font-300-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.300.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-300 --verbose > ./dist/font-300/sciPX-font-300-pure.md
+
+	$(SCIOTF_BIN) advanced ./defs/font.999.free.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-999 --verbose > ./dist/font-999/sciAC-font-999-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.999.pure.json -f otf -f woff2 -a 1:1.2 -c inside -o dist/font-999 --verbose > ./dist/font-999/sciAC-font-999-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.999.free.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-999 --verbose > ./dist/font-999/sciPX-font-999-free.md
+	$(SCIOTF_BIN) advanced ./defs/font.999.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-999 --verbose > ./dist/font-999/sciPX-font-999-pure.md
 
 clean:
-	rm -f ./dist/sciAC-*.otf ./dist/sciPX-*.otf ./dist/sciAC-*.woff2 ./dist/sciPX-*.woff2
+	rm -fr ./dist/font-000 ./dist/font-001 ./dist/font-004 ./dist/font-200 ./dist/font-300 ./dist/font-999
 
 update-defs: update-font-000-def \
 			 update-font-000-pure-def \
@@ -67,11 +87,13 @@ update-defs: update-font-000-def \
 			 update-font-001-free-def \
 			 update-font-004-pure-def \
 			 update-font-004-free-def \
+			 update-font-200-free-def \
 			 update-font-300-def \
 			 update-font-300-pure-def \
 			 update-font-300-free-def \
 			 update-font-999-pure-def \
 			 update-font-999-free-def
+
 
 update-font-000-def:
 	@TMPFILE=$$(mktemp); \
@@ -173,6 +195,13 @@ update-font-004-free-def:
 	.sources[0].root = \"$(SCI_FONT_004_A)\" \
 	" ./defs/font.004.free.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.004.free.json
+
+update-font-200-free-def:
+	@TMPFILE=$$(mktemp) && \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_200_A)\" \
+	" ./defs/font.200.free.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.200.free.json
 
 update-font-999-pure-def:
 	@TMPFILE=$$(mktemp); \
