@@ -78,7 +78,7 @@ fonts: dist-folders
 	$(SCIOTF_BIN) advanced ./defs/font.999.pure.json -f otf -f woff2 -a 1:1   -c none   -o dist/font-999 --verbose > ./dist/font-999/sciPX-font-999-pure.md
 
 clean:
-	rm -fr ./dist/**/*.otf ./dist/**/*.woff2
+	rm -fr ./dist
 
 update-defs: update-font-000-def \
 			 update-font-000-pure-def \
