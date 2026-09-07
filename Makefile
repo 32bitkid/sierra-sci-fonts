@@ -61,7 +61,7 @@ fonts: dist-folders
 	$(SCIOTF_BIN) advanced ./defs/font.004.json      -f otf -f woff2 -a 1:1.2 -c inside -s lsb  -o dist --verbose > ./dist/sciAC-font-004.md
 	$(SCIOTF_BIN) advanced ./defs/font.004.free.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-004-free.md
 	$(SCIOTF_BIN) advanced ./defs/font.004.pure.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-004-pure.md
-	$(SCIOTF_BIN) advanced ./defs/font.004.json      -f otf -f woff2 -a 1:1.2 -c inside -s none -o dist --verbose > ./dist/sciPX-font-004.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.json      -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-004.md
 
 	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1.2 -c inside -s none  -o dist --verbose > ./dist/sciAC-font-200-free.md
 	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-200-free.md
