@@ -205,7 +205,8 @@ update-font-004-def:
 	jq "\
 	.sources[0].root = \"$(SCI_FONT_004_A)\" | \
 	.sources[1].root = \"$(SCI_FONT_004_B)\" | \
-	.sources[2].path = \"$(SCI_FONT_004_C)\" \
+	.sources[2].path = \"$(SCI_FONT_004_C)\" | \
+	.sources[3].path = \"$(SCI_FONT_004_A)\" \
 	" ./defs/font.004.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.004.json
 
