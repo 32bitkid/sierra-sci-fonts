@@ -1,0 +1,404 @@
+{
+  "$schemaVersion": "v1",
+  "name": "FONT.004",
+  "version": "0.0.1",
+  "chamfer": "inside",
+  "pad": {
+    "top": 1
+  },
+  "sources": [
+    {
+      "type": "resource",
+      "root": "/path/to/source_a",
+      "id": 4,
+      "mappings": [
+        "ascii-symbols",
+        "ascii-digits",
+        "ascii-lowercase",
+        "ascii-uppercase",
+        [
+          "01",
+          "26f0",
+          {
+            "name": "mountain"
+          }
+        ],
+        [
+          "02",
+          "2387",
+          {
+            "name": "alternative key symbol",
+            "actions": [
+              {
+                "shift": {
+                  "dx": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "03",
+          "2388",
+          {
+            "name": "helm symbol",
+            "actions": [
+              {
+                "shift": {
+                  "dx": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "04",
+          "00a9"
+        ],
+        [
+          "05",
+          "2122",
+          {
+            "name": "trademark symbol",
+            "actions": [
+              {
+                "shift": {
+                  "dx": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "07",
+          "232b",
+          {
+            "name": "erase to the left"
+          }
+        ],
+        [
+          "08",
+          "2b7e",
+          {
+            "name": "horizontal tab key"
+          }
+        ],
+        [
+          "7c",
+          "007c",
+          {
+            "overwrite": true,
+            "actions": [
+              {
+                "trim": {
+                  "left": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "31",
+          "0031",
+          {
+            "overwrite": true,
+            "actions": [
+              {
+                "trim": {
+                  "right": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "22",
+          "0022",
+          {
+            "overwrite": true,
+            "actions": [
+              {
+                "trim": {
+                  "right": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "2E",
+          "002E",
+          {
+            "overwrite": true,
+            "actions": [
+              {
+                "trim": {
+                  "right": 2
+                }
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "resource",
+      "root": "/path/to/source_b",
+      "id": 4,
+      "mappings": [
+        [
+          "80",
+          "00C7"
+        ],
+        [
+          "81",
+          "00FC"
+        ],
+        [
+          "82",
+          "00E9"
+        ],
+        [
+          "83",
+          "00E2"
+        ],
+        [
+          "84",
+          "00E4"
+        ],
+        [
+          "85",
+          "00E0"
+        ],
+        [
+          "86",
+          "00E5"
+        ],
+        [
+          "87",
+          "00E7"
+        ],
+        [
+          "88",
+          "00EA"
+        ],
+        [
+          "89",
+          "00EB"
+        ],
+        [
+          "8a",
+          "00E8"
+        ],
+        [
+          "8b",
+          "00EF"
+        ],
+        [
+          "8c",
+          "00EE"
+        ],
+        [
+          "8d",
+          "00EC"
+        ],
+        [
+          "8e",
+          "00C4"
+        ],
+        [
+          "8f",
+          "00C5"
+        ],
+        [
+          "90",
+          "00C9"
+        ],
+        [
+          "91",
+          "00E6"
+        ],
+        [
+          "92",
+          "00C6"
+        ],
+        [
+          "93",
+          "00F4"
+        ],
+        [
+          "94",
+          "00F6"
+        ],
+        [
+          "95",
+          "00F2"
+        ],
+        [
+          "96",
+          "00FB"
+        ],
+        [
+          "97",
+          "00F9"
+        ],
+        [
+          "98",
+          "00FF"
+        ],
+        [
+          "99",
+          "00D6"
+        ],
+        [
+          "9a",
+          "00DC"
+        ],
+        [
+          "9b",
+          "00F8"
+        ],
+        [
+          "9c",
+          "00A3"
+        ],
+        [
+          "9d",
+          "00D8"
+        ],
+        [
+          "9e",
+          "00D7"
+        ],
+        [
+          "9f",
+          "0192",
+          {
+            "name": "latin small letter f with hook"
+          }
+        ],
+        [
+          "a0",
+          "00E1"
+        ],
+        [
+          "a1",
+          "00ED"
+        ],
+        [
+          "a2",
+          "00F3"
+        ],
+        [
+          "a3",
+          "00FA"
+        ],
+        [
+          "a4",
+          "00F1"
+        ],
+        [
+          "a5",
+          "00D1"
+        ],
+        [
+          "a6",
+          "00AA"
+        ],
+        [
+          "a7",
+          "00BA"
+        ],
+        [
+          "a8",
+          "00BF"
+        ],
+        [
+          "e1",
+          "00df"
+        ]
+      ]
+    },
+    {
+      "type": "patch",
+      "path": "/path/to/source_c",
+      "mappings": [
+        [
+          "23",
+          "00a1",
+          {
+            "actions": [
+              {
+                "shift": {
+                  "dx": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "26",
+          "00BF",
+          {
+            "overwrite": true,
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1
+                }
+              },
+              {
+                "shift": {
+                  "dx": 1,
+                  "dy": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "5E",
+          "00FC",
+          {
+            "overwrite": true
+          }
+        ],
+        [
+          "7B",
+          "00E1",
+          {
+            "overwrite": true
+          }
+        ],
+        [
+          "7D",
+          "00E9",
+          {
+            "overwrite": true
+          }
+        ],
+        [
+          "5B",
+          "00ED",
+          {
+            "overwrite": true
+          }
+        ],
+        [
+          "5D",
+          "00F3",
+          {
+            "overwrite": true
+          }
+        ],
+        [
+          "7C",
+          "00FA",
+          {
+            "overwrite": true
+          }
+        ]
+      ]
+    }
+  ]
+}

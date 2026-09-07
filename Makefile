@@ -58,8 +58,10 @@ fonts: dist-folders
 
 	$(SCIOTF_BIN) advanced ./defs/font.004.free.json -f otf -f woff2 -a 1:1.2 -c inside -s lsb  -o dist --verbose > ./dist/sciAC-font-004-free.md
 	$(SCIOTF_BIN) advanced ./defs/font.004.pure.json -f otf -f woff2 -a 1:1.2 -c inside -s lsb  -o dist --verbose > ./dist/sciAC-font-004-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.json      -f otf -f woff2 -a 1:1.2 -c inside -s lsb  -o dist --verbose > ./dist/sciAC-font-004.md
 	$(SCIOTF_BIN) advanced ./defs/font.004.free.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-004-free.md
 	$(SCIOTF_BIN) advanced ./defs/font.004.pure.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-004-pure.md
+	$(SCIOTF_BIN) advanced ./defs/font.004.json      -f otf -f woff2 -a 1:1.2 -c inside -s none -o dist --verbose > ./dist/sciPX-font-004.md
 
 	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1.2 -c inside -s none  -o dist --verbose > ./dist/sciAC-font-200-free.md
 	$(SCIOTF_BIN) advanced ./defs/font.200.free.json -f otf -f woff2 -a 1:1   -c none   -s none -o dist --verbose > ./dist/sciPX-font-200-free.md
@@ -88,6 +90,7 @@ update-defs: update-font-000-def \
 			 update-font-001-free-def \
 			 update-font-004-pure-def \
 			 update-font-004-free-def \
+			 update-font-004-def \
 			 update-font-200-free-def \
 			 update-font-300-def \
 			 update-font-300-pure-def \
@@ -197,6 +200,15 @@ update-font-004-free-def:
 	" ./defs/font.004.free.json > "$$TMPFILE" && \
 	cp $$TMPFILE ./defs/font.004.free.json
 
+update-font-004-def:
+	@TMPFILE=$$(mktemp); \
+	jq "\
+	.sources[0].root = \"$(SCI_FONT_004_A)\" | \
+	.sources[1].root = \"$(SCI_FONT_004_B)\" | \
+	.sources[2].path = \"$(SCI_FONT_004_C)\" \
+	" ./defs/font.004.json > "$$TMPFILE" && \
+	cp $$TMPFILE ./defs/font.004.json
+
 update-font-200-free-def:
 	@TMPFILE=$$(mktemp) && \
 	jq "\
@@ -245,6 +257,7 @@ specimen: dist-folders rebuild-specimen
 	./specimen/dist/index.mjs ./dist/sciAC-font-999-pure.otf > ./dist/sciAC-font-999-pure.png
 
 	./specimen/dist/index.mjs ./dist/sciAC-font-000.otf > ./dist/sciAC-font-000.png
+	./specimen/dist/index.mjs ./dist/sciAC-font-004.otf > ./dist/sciAC-font-004.png
 	./specimen/dist/index.mjs ./dist/sciAC-font-300.otf > ./dist/sciAC-font-300.png
 	./specimen/dist/index.mjs ./dist/sciAC-font-999.otf > ./dist/sciAC-font-999.png
 
@@ -263,6 +276,7 @@ specimen: dist-folders rebuild-specimen
 	./specimen/dist/index.mjs ./dist/sciPX-font-999-pure.otf > ./dist/sciPX-font-999-pure.png
 
 	./specimen/dist/index.mjs ./dist/sciPX-font-000.otf > ./dist/sciPX-font-000.png
+	./specimen/dist/index.mjs ./dist/sciPX-font-004.otf > ./dist/sciPX-font-004.png
 	./specimen/dist/index.mjs ./dist/sciPX-font-300.otf > ./dist/sciPX-font-300.png
 	./specimen/dist/index.mjs ./dist/sciPX-font-999.otf > ./dist/sciPX-font-999.png
 
