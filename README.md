@@ -19,8 +19,7 @@ a display aspect-ratio of 1&ratio;1.2 (or the closest integer scaling of 5&ratio
 
 ## Variants
 
-- **Free** - Basic Latin/ASCII glyphs from freely available demo and promotional content from Sierra On-Line. 
-- **Pure** - Built with glyphs that can be directly found in demo, promotional, _and_ retail content from Sierra On-Line, with _minimial_ or _no_ alterations, providing _some_ localization support.
+- **Free** - Basic Latin/ASCII glyphs from freely available demo and promotional content from Sierra On-Line.
 - **Full** - Built with glyphs from retail content from Sierra On-Line, with many glyphs altered and/or adjusted for bettter localization support.
 
 ## Supported Fonts
@@ -32,7 +31,6 @@ General overview of the glyphs that each version supports.
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.000 Free` |             ✅             |                                      |               ✅                |              ✅              |
-| `FONT.000 Pure` |             ✅             |               Partial                |               ✅                |              ✅              |
 | `FONT.000`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
 ### FONT.001
@@ -47,14 +45,13 @@ General overview of the glyphs that each version supports.
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.004 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.004`      |             ✅             |               Partial                |               ✅                |              ✅              | 
 
 ### FONT.300
 
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.300 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.300 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
 | `FONT.300`      |             ✅             |                  ✅                  |               ✅                |              ✅              |  
 
 
@@ -63,7 +60,7 @@ General overview of the glyphs that each version supports.
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.004 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.004`      |             ✅             |               Partial                |               ✅                |              ✅              | 
 
 > [!note] 
 > More FONT mappings/definitions will be coming soon for other Sierra SCI0/01 fonts.

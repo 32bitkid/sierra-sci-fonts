@@ -1,7 +1,7 @@
 {
   "$schemaVersion": "v1",
   "name": "FONT.999",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "chamfer": "inside",
   "pad": {
     "top": 1
@@ -459,9 +459,9 @@
         ],
         [
           "66",
-          "E000",
+          "FB00",
           {
-            "name": "ff ligature",
+            "name": "latin small ligature ff",
             "advanceWidth": 8,
             "actions": [
               {
@@ -489,9 +489,9 @@
         ],
         [
           "66",
-          "E001",
+          "FB02",
           {
-            "name": "fl ligature",
+            "name": "latin small ligature fl",
             "actions": [
               {
                 "pad": {
@@ -518,9 +518,9 @@
         ],
         [
           "66",
-          "E002",
+          "FB01",
           {
-            "name": "fi ligature",
+            "name": "latin small ligature fi",
             "actions": [
               {
                 "pad": {
@@ -1532,6 +1532,708 @@
               }
             ]
           }
+        ],
+        [
+          "80",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER C WITH CEDILLA",
+            "actions": [
+              {
+                "base": 0
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00c7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "81",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER U WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00fc"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "82",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER E WITH ACUTE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "83",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER A WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e2"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "84",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER A WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "85",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER A WITH GRAVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e0"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "86",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER A WITH RING ABOVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e5"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "87",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER C WITH CEDILLA",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "88",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER E WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ea"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "89",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER E WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00eb"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8a",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER E WITH GRAVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8b",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER I WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ef"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8c",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER I WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ee"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8d",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER I WITH GRAVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ec"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8e",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER A WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00c4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8f",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER A WITH RING ABOVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00c5"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "90",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER E WITH ACUTE",
+            "actions": [
+              {
+                "base": -2
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00c9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "91",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER AE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "92",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER AE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00c6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "93",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER O WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "94",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER O WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "95",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER O WITH GRAVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f2"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "96",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER U WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00fb"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "97",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER U WITH GRAVE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "98",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER Y WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ff"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "99",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER O WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00d6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9a",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER U WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00dc"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9b",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER O WITH STROKE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9c",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE POUND SIGN",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00a3"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9d",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER O WITH STROKE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00d8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9e",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE MULTIPLICATION SIGN",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00d7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9f",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER F WITH HOOK",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "0192"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a0",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER A WITH ACUTE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00e1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a1",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER I WITH ACUTE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00ed"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a2",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER O WITH ACUTE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f3"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a3",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER U WITH ACUTE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00fa"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a4",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER N WITH TILDE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00f1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a5",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN CAPITAL LETTER N WITH TILDE",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00d1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "e1",
+          "Fxxxx",
+          {
+            "name": "LARRY-3 FR ALTERNATE LATIN SMALL LETTER SHARP S",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss11",
+                  "00df"
+                ]
+              }
+            ]
+          }
         ]
       ]
     },
@@ -1660,6 +2362,597 @@
                 "alt": [
                   "salt",
                   "0025"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "80",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER C WITH CEDILLA",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00c7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "81",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER U WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00fc"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "82",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER E WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "83",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER A WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e2"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "84",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER A WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "85",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER A WITH GRAVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e0"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "86",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER A WITH RING ABOVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e5"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "87",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER C WITH CEDILLA",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "88",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER E WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss10",
+                  "00ea"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "89",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER E WITH DIAERESIS",
+            "actions": [
+              {
+                "base": -1
+              },
+              {
+                "alt": [
+                  "ss10",
+                  "00eb"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8a",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER E WITH GRAVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8b",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER I WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00ef"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8c",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER I WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00ee"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8d",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER I WITH GRAVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00ec"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8e",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER A WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00c4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "8f",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER A WITH RING ABOVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00c5"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "90",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER E WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00c9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "91",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER AE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "92",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER AE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00c6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "93",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER O WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f4"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "94",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER O WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "95",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER O WITH GRAVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f2"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "96",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER U WITH CIRCUMFLEX",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00fb"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "97",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER U WITH GRAVE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f9"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "98",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER Y WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00ff"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "99",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER O WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00d6"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9a",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER U WITH DIAERESIS",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00dc"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9b",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER O WITH STROKE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9c",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE POUND SIGN",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00a3"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9d",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER O WITH STROKE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00d8"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9e",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE MULTIPLICATION SIGN",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00d7"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "9f",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER F WITH HOOK",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "0192"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a0",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER A WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00e1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a1",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER I WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00ed"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a2",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER O WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f3"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a3",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER U WITH ACUTE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00fa"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a4",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER N WITH TILDE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00f1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "a5",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN CAPITAL LETTER N WITH TILDE",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00d1"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "e1",
+          "Fxxxx",
+          {
+            "name": "SPACE-QUEST-3 GERMAN ALTERNATE LATIN SMALL LETTER SHARP S",
+            "actions": [
+              {
+                "alt": [
+                  "ss10",
+                  "00df"
                 ]
               }
             ]

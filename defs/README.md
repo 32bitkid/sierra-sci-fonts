@@ -10,20 +10,7 @@ variations available in this folder.
 
 The `font.XXX.free.json`-named font definitions only reference glyphs that can be found in _free_ or _demo_ content
 that was published by Sierra On-Line for open distrubtion. This includes interactive demos, non-interactive
-demos, and other promotional content. 
-
-
-### `font.XXX.pure.json`  Fonts
-
-The `font.XXX.pure.json`-named font definitions reference free _and_ commercial releases of Sierra On-Line 
-adventure games, but will only include direct copies of glyphs as they were originally found in the 
-original source material. Due to the nature of localization support in the late-80s and early-90s, some of 
-these glyphs can be pretty janky, and they do not cover what modern audiences/users might consider
-"full" localization support. 
-
-If you are looking to reproduce the _exact_ look and quriks of original international
-releases of Sierra On-Line advenure games, then these are for you.
-
+demos, and other promotional content.
 
 ### `font.XXX.json`  Fonts
 
