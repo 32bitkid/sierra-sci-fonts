@@ -173,9 +173,9 @@
         ],
         [
           "66",
-          "100000",
+          "fb01",
           {
-            "name": "fi ligature",
+            "name": "small latin ligature fi",
             "actions": [
               {
                 "pad": {
@@ -206,9 +206,9 @@
         ],
         [
           "66",
-          "100001",
+          "FB02",
           {
-            "name": "fl ligature",
+            "name": "small latin ligature fl",
             "actions": [
               {
                 "pad": {
@@ -241,7 +241,7 @@
           "66",
           "100002",
           {
-            "name": "fj ligature",
+            "name": "small latin ligature fj",
             "actions": [
               {
                 "pad": {
@@ -273,9 +273,9 @@
         ],
         [
           "66",
-          "100003",
+          "FB03",
           {
-            "name": "ffi ligature",
+            "name": "small latin ligature ffi",
             "actions": [
               {
                 "pad": {
@@ -307,9 +307,9 @@
         ],
         [
           "66",
-          "100006",
+          "fb04",
           {
-            "name": "ffl ligature",
+            "name": "small latin ligature ffl",
             "actions": [
               {
                 "pad": {
@@ -343,7 +343,7 @@
           "71",
           "100004",
           {
-            "name": "qu ligature",
+            "name": "small latin ligature qu",
             "actions": [
               {
                 "pad": {
@@ -380,7 +380,7 @@
           "54",
           "100005",
           {
-            "name": "Th ligature",
+            "name": "latin ligature Th ",
             "actions": [
               {
                 "pad": {
@@ -415,7 +415,7 @@
           "6D",
           "100007",
           {
-            "name": "Th ligature",
+            "name": "small lating ligature mp",
             "actions": [
               {
                 "pad": {
@@ -2189,7 +2189,7 @@
           "45",
           "0152",
           {
-            "name": "latin captial ligature oe",
+            "name": "latin capital ligature oe",
             "actions": [
               {
                 "pad": {

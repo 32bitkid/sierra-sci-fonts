@@ -1095,9 +1095,9 @@
         ],
         [
           "66",
-          "100000",
+          "fb01",
           {
-            "name": "fi ligature",
+            "name": "small latin ligature fi",
             "actions": [
               {
                 "pad": {
@@ -1128,9 +1128,9 @@
         ],
         [
           "66",
-          "100001",
+          "fb02",
           {
-            "name": "fl ligature",
+            "name": "small latin ligature fl",
             "actions": [
               {
                 "pad": {
@@ -1196,9 +1196,9 @@
         ],
         [
           "66",
-          "100003",
+          "fb03",
           {
-            "name": "ffi ligature",
+            "name": "small latin ligature ffi",
             "actions": [
               {
                 "pad": {
@@ -1245,9 +1245,9 @@
         ],
         [
           "66",
-          "100004",
+          "fb04",
           {
-            "name": "ffl ligature",
+            "name": "small latin ligature ffl",
             "actions": [
               {
                 "pad": {
@@ -1294,9 +1294,9 @@
         ],
         [
           "66",
-          "100005",
+          "fb00",
           {
-            "name": "ff ligature",
+            "name": "small latin ligature ff",
             "actions": [
               {
                 "pad": {
