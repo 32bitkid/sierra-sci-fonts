@@ -37,7 +37,7 @@ ifneq ($(RESET), 1)
 	-include Makefile.local
 endif
 
-build: clean fonts specimen
+build: clean fonts specimen license
 
 dist-folders:
 	mkdir -p dist/
@@ -73,6 +73,10 @@ fonts: dist-folders
 
 clean:
 	rm -fr ./dist
+
+license:
+	cp ./LICENSE.md dist/
+	cp ./LEGAL.md dist/
 
 update-defs: update-font-000-def \
 			 update-font-000-free-def \
