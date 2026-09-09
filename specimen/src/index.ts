@@ -12,7 +12,7 @@ function mustExist<T>(value: T | null | undefined): asserts value is T {
 	if (!value) panic("file not found");
 }
 
-const canvas = createCanvas(800, 400);
+const canvas = createCanvas(800, 450);
 const ctx = canvas.getContext("2d");
 const cnvCtx = ctx as unknown as CanvasRenderingContext2D;
 
@@ -23,7 +23,7 @@ const otf = await readFile(fileName);
 const font = opentype.parse(otf);
 
 ctx.fillStyle = "white";
-ctx.fillRect(0, 0, 800, 400);
+ctx.fillRect(0, 0, 800, 450);
 ctx.fillStyle = "black";
 
 function* chunksOf(glyphs: opentype.GlyphSet, size: number) {
