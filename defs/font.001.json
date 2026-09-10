@@ -1,7 +1,7 @@
 {
   "$schemaVersion": "v1",
   "name": "FONT.001",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "chamfer": "inside",
   "pad": {
     "top": 1
