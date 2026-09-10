@@ -67,7 +67,13 @@ ctx.fillStyle = "black";
 
 font.draw(cnvCtx, font.getEnglishName("fontFamily"), 25, 80, 16 * 3);
 ctx.fillStyle = "black";
-font.draw(cnvCtx, "a Sierra On-Line Typeface", 45, 80 + lineHeight(16), 16);
+font.draw(
+	cnvCtx,
+	`a Sierra On-Line Typeface - v${font.getEnglishName("version")}`,
+	45,
+	80 + lineHeight(16),
+	16,
+);
 
 const visited = new Set<opentype.Glyph>();
 function* unvisited(it: Iterable<opentype.Glyph>) {
