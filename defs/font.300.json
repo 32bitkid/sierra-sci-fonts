@@ -1087,51 +1087,6 @@
           }
         ],
         [
-          "a6",
-          "Fxxxx",
-          {
-            "name": "ALTERNATE FEMININE ORDINAL INDICATOR",
-            "actions": [
-              {
-                "alt": [
-                  "ss10",
-                  "00aa"
-                ]
-              }
-            ]
-          }
-        ],
-        [
-          "a7",
-          "Fxxxx",
-          {
-            "name": "ALTERNATE MASCULINE ORDINAL INDICATOR",
-            "actions": [
-              {
-                "alt": [
-                  "ss10",
-                  "00ba"
-                ]
-              }
-            ]
-          }
-        ],
-        [
-          "a8",
-          "Fxxxx",
-          {
-            "name": "ALTERNATE INVERTED QUESTION MARK",
-            "actions": [
-              {
-                "alt": [
-                  "ss10",
-                  "00bf"
-                ]
-              }
-            ]
-          }
-        ],
-        [
           "e1",
           "Fxxxx",
           {
