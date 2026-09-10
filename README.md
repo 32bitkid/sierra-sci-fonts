@@ -33,19 +33,26 @@ General overview of the glyphs that each version supports.
 | `FONT.000 Free` |             ✅             |                                      |               ✅                |              ✅              |
 | `FONT.000`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
+<img width="750" height="450" alt="sciAC-font-000" src="https://github.com/user-attachments/assets/c9037381-947f-4108-8032-941796bee523" />
+
+
 ### FONT.001
 
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.001 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.001 Pure` |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.001 Pure` |             ✅             |                  ✅                  |               ✅                |              ✅              | 
+
+<img width="750" height="450" alt="sciAC-font-001" src="https://github.com/user-attachments/assets/768103d0-441c-4320-9320-99477493cfe1" />
 
 ### FONT.004
 
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.004`      |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.004`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
+
+<img width="750" height="450" alt="sciAC-font-004" src="https://github.com/user-attachments/assets/a3217664-c752-41ec-8ff5-6e9396a85754" />
 
 ### FONT.300
 
@@ -54,13 +61,16 @@ General overview of the glyphs that each version supports.
 | `FONT.300 Free` |             ✅             |                                      |               ✅                |              ✅              | 
 | `FONT.300`      |             ✅             |                  ✅                  |               ✅                |              ✅              |  
 
+<img width="750" height="450" alt="sciAC-font-300" src="https://github.com/user-attachments/assets/ba28f1fb-2db1-479e-9dd8-b0c9d198ad90" />
 
 ### FONT.999
 
 | Font            | <small>Basic Latin</small> | <small>Latin-1<br>Supplement</small> | AC <small>(1&ratio;1.2)</small> | PX <small>(1&ratio;1)</mall> | 
 |-----------------|:--------------------------:|:------------------------------------:|:-------------------------------:|:----------------------------:|
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
-| `FONT.004`      |             ✅             |               Partial                |               ✅                |              ✅              | 
+| `FONT.004`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
+
+<img width="750" height="450" alt="sciAC-font-999" src="https://github.com/user-attachments/assets/80a8e1ef-5686-41c2-a055-fd199101f241" />
 
 > [!note] 
 > More FONT mappings/definitions will be coming soon for other Sierra SCI0/01 fonts.
