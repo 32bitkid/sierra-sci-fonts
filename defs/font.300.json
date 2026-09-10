@@ -415,7 +415,7 @@
           "6D",
           "100007",
           {
-            "name": "small lating ligature mp",
+            "name": "small latin ligature mp",
             "actions": [
               {
                 "pad": {
@@ -925,12 +925,12 @@
           "9b",
           "Fxxxx",
           {
-            "name": "ALTERNATE LATIN SMALL LETTER O WITH STROKE",
+            "name": "ALTERNATE CENT",
             "actions": [
               {
                 "alt": [
                   "ss10",
-                  "00f8"
+                  "00A2"
                 ]
               }
             ]
@@ -955,12 +955,12 @@
           "9d",
           "Fxxxx",
           {
-            "name": "ALTERNATE LATIN CAPITAL LETTER O WITH STROKE",
+            "name": "ALTERNATE Yen Sign",
             "actions": [
               {
                 "alt": [
                   "ss10",
-                  "00d8"
+                  "00A5"
                 ]
               }
             ]
@@ -970,12 +970,12 @@
           "9e",
           "Fxxxx",
           {
-            "name": "ALTERNATE MULTIPLICATION SIGN",
+            "name": "ALTERNATE peseta sign",
             "actions": [
               {
                 "alt": [
                   "ss10",
-                  "00d7"
+                  "20a7"
                 ]
               }
             ]
