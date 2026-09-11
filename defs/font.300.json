@@ -446,6 +446,70 @@
               }
             ]
           }
+        ],
+        [
+          "2D",
+          "269E",
+          {
+            "name": "Three Lines Converging Right",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 4,
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "  xx",
+                  "    xxx",
+                  "",
+                  "",
+                  "",
+                  "    xxx",
+                  "  xx"
+                ]
+              },
+              {
+                "shift": {
+                  "dy": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "2D",
+          "269F",
+          {
+            "name": "Three Lines Converging Left",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 4,
+                  "left": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "    xx",
+                  " xxx",
+                  "",
+                  "",
+                  "",
+                  " xxx",
+                  "    xx"
+                ]
+              },
+              {
+                "shift": {
+                  "dy": 1
+                }
+              }
+            ]
+          }
         ]
       ]
     },

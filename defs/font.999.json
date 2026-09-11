@@ -2327,6 +2327,61 @@
               }
             ]
           }
+        ],
+        [
+          "2D",
+          "269E",
+          {
+            "name": "Three Lines Converging Right",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1
+                }
+              },
+              {
+                "shift": {
+                  "dy": -1
+                }
+              },
+              {
+                "xor": [
+                  " xx",
+                  "   xx",
+                  "   ",
+                  "    x",
+                  "",
+                  "   xx",
+                  " xx  "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "2D",
+          "269F",
+          {
+            "name": "Three Lines Converging Left",
+            "actions": [
+              {
+                "shift": {
+                  "dy": -1
+                }
+              },
+              {
+                "xor": [
+                  "   xx",
+                  " xx",
+                  "    ",
+                  "    x",
+                  "",
+                  " xx  ",
+                  "   xx"
+                ]
+              }
+            ]
+          }
         ]
       ]
     },

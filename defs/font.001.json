@@ -1834,6 +1834,68 @@
           {
             "name": "house"
           }
+        ],
+        [
+          "2D",
+          "269E",
+          {
+            "name": "Three Lines Converging Right",
+            "actions": [
+              {
+                "xor": [
+                  "",
+                  "  xx",
+                  "    xxx",
+                  "",
+                  "",
+                  "",
+                  "    xxx",
+                  "  xx"
+                ]
+              },
+              {
+                "shift": {
+                  "dy": 1
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "2D",
+          "269F",
+          {
+            "name": "Three Lines Converging Left",
+            "actions": [
+              {
+                "pad": {
+                  "left": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "    xx",
+                  " xxx",
+                  "",
+                  "",
+                  "",
+                  " xxx",
+                  "    xx"
+                ]
+              },
+              {
+                "shift": {
+                  "dy": 1
+                }
+              },
+              {
+                "trim": {
+                  "right": 1
+                }
+              }
+            ]
+          }
         ]
       ]
     },
