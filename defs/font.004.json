@@ -80,16 +80,16 @@
         ],
         [
           "07",
-          "232b",
+          "2408",
           {
             "name": "erase to the left"
           }
         ],
         [
           "08",
-          "2b7e",
+          "2409",
           {
-            "name": "horizontal tab key"
+            "name": "Symbol For Horizontal Tabulation"
           }
         ],
         [
@@ -407,6 +407,7 @@
           "20",
           "2022",
           {
+            "name": "bullet",
             "actions": [
               {
                 "xor": [
@@ -425,6 +426,7 @@
           "2D",
           "2013",
           {
+            "name": "en dash",
             "actions": [
               {
                 "pad": {
@@ -447,6 +449,7 @@
           "2D",
           "2014",
           {
+            "name": "em dash",
             "actions": [
               {
                 "pad": {
@@ -1265,6 +1268,7 @@
           "27",
           "2018",
           {
+            "name": "Left Single Quotation Mark",
             "actions": [
               {
                 "xor": [
@@ -1279,12 +1283,16 @@
         ],
         [
           "27",
-          "2019"
+          "2019",
+          {
+            "name": "Right Single Quotation Mark"
+          }
         ],
         [
           "27",
           "201C",
           {
+            "name": "Left Double Quotation Mark",
             "actions": [
               {
                 "pad": {
@@ -1315,6 +1323,7 @@
           "27",
           "201D",
           {
+            "name": "Right Double Quotation Mark",
             "actions": [
               {
                 "pad": {
@@ -1520,6 +1529,7 @@
           "2E",
           "2026",
           {
+            "name": "Horizontal Ellipsis",
             "actions": [
               {
                 "pad": {
@@ -2292,43 +2302,6 @@
                 "alt": [
                   "ss01",
                   "FB02"
-                ]
-              }
-            ]
-          }
-        ],
-        [
-          "2E",
-          "Fxxxx",
-          {
-            "actions": [
-              {
-                "pad": {
-                  "right": 3
-                }
-              },
-              {
-                "comp": [
-                  "2e",
-                  [
-                    2,
-                    0
-                  ]
-                ]
-              },
-              {
-                "comp": [
-                  "2e",
-                  [
-                    4,
-                    0
-                  ]
-                ]
-              },
-              {
-                "alt": [
-                  "ss01",
-                  "2026"
                 ]
               }
             ]
