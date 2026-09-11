@@ -196,16 +196,16 @@
         ],
         [
           "08",
-          "232b",
+          "2408",
           {
-            "name": "erase to the left"
+            "name": "Symbol For Backspace"
           }
         ],
         [
           "09",
-          "2b7e",
+          "2409",
           {
-            "name": "horizontal tab key"
+            "name": "Symbol For Horizontal Tabulation"
           }
         ],
         [
@@ -990,6 +990,72 @@
           }
         ],
         [
+          "2D",
+          "2010",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 1
+                }
+              },
+              {
+                "trim": {
+                  "right": 3
+                }
+              }
+            ]
+          }
+        ],
+        [
+          "2D",
+          "2013",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 1,
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "        x"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "2D",
+          "2014",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 1,
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "        xx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
           "60",
           "201C",
           {
@@ -1413,23 +1479,50 @@
             "name": "dagger",
             "actions": [
               {
-                "pad": {
-                  "left": 1,
+                "trim": {
                   "right": 1
                 }
               },
               {
                 "xor": [
-                  "    ",
-                  "    ",
-                  "  x ",
+                  "   ",
+                  "   ",
                   "   x",
-                  " x   x",
-                  "  x   ",
-                  "  x   ",
-                  "  x    ",
-                  "  x xx",
-                  "   x "
+                  "  x",
+                  "     ",
+                  "   x ",
+                  "   x ",
+                  "   x  ",
+                  " x xx",
+                  "  x "
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "69",
+          "2021",
+          {
+            "name": "double dagger",
+            "actions": [
+              {
+                "trim": {
+                  "right": 1
+                }
+              },
+              {
+                "xor": [
+                  "   ",
+                  "   ",
+                  "   x",
+                  "  x",
+                  "     ",
+                  "   x  ",
+                  "   x ",
+                  " x    ",
+                  " x xx",
+                  "  x "
                 ]
               }
             ]
@@ -1742,7 +1835,7 @@
           }
         ],
         [
-          "09",
+          "0a",
           "25D9",
           {
             "name": "inverse bullet"
