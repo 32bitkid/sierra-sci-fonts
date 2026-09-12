@@ -34,6 +34,12 @@ function* union(...generators: Iterable<string>[]) {
 	for (const gen of generators) yield* gen;
 }
 
+function* omit(gen: Iterable<string>, omits: string[]) {
+	for (const gl of gen) {
+		if (!omits.includes(gl)) yield gl;
+	}
+}
+
 const panic = (message: string): never => {
 	console.error(`ERROR: ${message}`);
 	process.exit(-1);
@@ -106,30 +112,31 @@ function drawGlyphs(
 }
 
 let y = 140;
+[, y] = drawGlyphs([40, y], asGlyphsOf(font, charRange("0", "9")));
 [, y] = drawGlyphs([40, y], asGlyphsOf(font, charRange("A", "Z")));
 [, y] = drawGlyphs([40, y], asGlyphsOf(font, charRange("a", "z")));
-[, y] = drawGlyphs([40, y], asGlyphsOf(font, charRange("0", "9")));
-
-const symbols = union(charRange("!", "~"), charRange("\u00A1", "\u00BF"), [
-	"\u00D7",
-	"\u00F7",
-]);
-[, y] = drawGlyphs([40, y], unvisited(asGlyphsOf(font, symbols)));
-
-const latin1Supplement = union(
-	charRange("\u00C0", "\u00D6"),
-	charRange("\u00D8", "\u00F6"),
-	charRange("\u00F8", "\u00FF"),
+const latinAccentCharacters = union(
+	omit(charRange("\u00C0", "\u00FF"), ["\u00D7", "\u007F"]), // Latin-1 Supplement
+	charRange("\u0100", "\u017f"), // Latin Extended-A
+	charRange("\u0180", "\u024F"), // Latin Extended-B
 );
-[, y] = drawGlyphs([40, y], unvisited(asGlyphsOf(font, latin1Supplement)));
+[, y] = drawGlyphs([40, y], unvisited(asGlyphsOf(font, latinAccentCharacters)));
 
-const otherSymbols = union(
+const symbols = union(
+	charRange("!", "~"),
+	charRange("\u00A1", "\u00BF"),
+	["\u00D7", "\u00F7"],
+	charRange("\u0370", "\u03ff"), // Greek
 	charRange("\u2000", "\u206f"),
+	charRange("\u20A0", "\u20CF"), // Currency Symbols
+	charRange("\u2100", "\u214f"), // Letterlike Symbols
 	charRange("\u2190", "\u21fF"),
 	charRange("\u25A0", "\u25FF"),
 	charRange("\u2600", "\u26FF"),
 );
-[, y] = drawGlyphs([40, y], unvisited(asGlyphsOf(font, otherSymbols)));
-[, y] = drawGlyphs([40, y], unvisited(allGlyphs(font.glyphs)));
+[, y] = drawGlyphs([40, y], unvisited(asGlyphsOf(font, symbols)));
+
+const remaining = unvisited(allGlyphs(font.glyphs));
+[, y] = drawGlyphs([40, y], remaining);
 
 process.stdout.write(canvas.toBuffer("image/png"));
