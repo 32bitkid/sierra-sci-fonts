@@ -221,3 +221,6 @@ specimen: dist-folders rebuild-specimen
 
 rebuild-specimen:
 	cd specimen && npm run build
+
+watch:
+	ls defs/*.json | entr -p ../sci.js/apps/sciotf/dist/main.mjs adv /_ -o dist
