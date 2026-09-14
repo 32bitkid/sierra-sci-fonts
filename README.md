@@ -33,8 +33,7 @@ General overview of the glyphs that each version supports.
 | `FONT.000 Free` |             ✅             |                                      |               ✅                |              ✅              |
 | `FONT.000`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
-<img width="750" height="450" alt="sciAC-font-000" src="https://github.com/user-attachments/assets/c9037381-947f-4108-8032-941796bee523" />
-
+<img width="750" height="450" alt="sciAC-font-000" src="https://github.com/user-attachments/assets/38f0e137-8907-4b09-8a47-63124449da71" />
 
 ### FONT.001
 
@@ -43,7 +42,7 @@ General overview of the glyphs that each version supports.
 | `FONT.001 Free` |             ✅             |                                      |               ✅                |              ✅              | 
 | `FONT.001 Pure` |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
-<img width="750" height="450" alt="sciAC-font-001" src="https://github.com/user-attachments/assets/768103d0-441c-4320-9320-99477493cfe1" />
+<img width="750" height="450" alt="sciAC-font-001" src="https://github.com/user-attachments/assets/4344271c-0ffe-496a-9e1d-5ad58176bca9" />
 
 ### FONT.004
 
@@ -52,7 +51,7 @@ General overview of the glyphs that each version supports.
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
 | `FONT.004`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
-<img width="750" height="450" alt="sciAC-font-004" src="https://github.com/user-attachments/assets/a3217664-c752-41ec-8ff5-6e9396a85754" />
+<img width="750" height="450" alt="sciAC-font-004" src="https://github.com/user-attachments/assets/ed9ca5cb-27e9-4876-b8c6-0e11b41e4dc5" />
 
 ### FONT.300
 
@@ -61,7 +60,7 @@ General overview of the glyphs that each version supports.
 | `FONT.300 Free` |             ✅             |                                      |               ✅                |              ✅              | 
 | `FONT.300`      |             ✅             |                  ✅                  |               ✅                |              ✅              |  
 
-<img width="750" height="450" alt="sciAC-font-300" src="https://github.com/user-attachments/assets/ba28f1fb-2db1-479e-9dd8-b0c9d198ad90" />
+<img width="750" height="450" alt="sciAC-font-300" src="https://github.com/user-attachments/assets/779d16af-0eba-4d66-b96b-4cc7595614f7" />
 
 ### FONT.999
 
@@ -70,10 +69,7 @@ General overview of the glyphs that each version supports.
 | `FONT.004 Free` |             ✅             |                                      |               ✅                |              ✅              | 
 | `FONT.004`      |             ✅             |                  ✅                  |               ✅                |              ✅              | 
 
-<img width="750" height="450" alt="sciAC-font-999" src="https://github.com/user-attachments/assets/80a8e1ef-5686-41c2-a055-fd199101f241" />
-
-> [!note] 
-> More FONT mappings/definitions will be coming soon for other Sierra SCI0/01 fonts.
+<img width="750" height="450" alt="sciAC-font-999" src="https://github.com/user-attachments/assets/a065a147-28af-4894-a593-5b7fcd8ff3b7" />
 
 ## Compiling
 
