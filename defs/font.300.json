@@ -6,6 +6,10 @@
   "pad": {
     "top": 1
   },
+  "lineHeight": {
+    "type": "constant",
+    "value": 10
+  },
   "sources": [
     {
       "type": "resource",
@@ -531,6 +535,186 @@
                   " x xx",
                   "",
                   " x xx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "name": "solidus",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1,
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "     x",
+                  "     x",
+                  "    x ",
+                  "    x ",
+                  "   x  ",
+                  "   x  ",
+                  "  x   ",
+                  "  x   ",
+                  " x    ",
+                  " x    "
+                ]
+              },
+              {
+                "alt": [
+                  "cv01",
+                  "002F"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "name": "reverse solidus",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1,
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  " x    ",
+                  " x    ",
+                  "  x   ",
+                  "  x   ",
+                  "   x  ",
+                  "   x  ",
+                  "    x ",
+                  "    x ",
+                  "     x",
+                  "     x"
+                ]
+              },
+              {
+                "alt": [
+                  "cv01",
+                  "005C"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "name": "solidus",
+            "advanceWidth": 13,
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1,
+                  "right": 9
+                }
+              },
+              {
+                "xor": [
+                  "      x  x  x",
+                  "      x  x  x",
+                  "     x  x  x",
+                  " x   x  x  x",
+                  "    x  x  x",
+                  "    x  x  x",
+                  " x x  x  x",
+                  "   x  x  x",
+                  "  x  x  x",
+                  "  x  x  x"
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "002F",
+                  "002F",
+                  "002F"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "name": "colon solidus solidus solidus",
+            "advanceWidth": 9,
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1,
+                  "right": 6
+                }
+              },
+              {
+                "xor": [
+                  "      x  x",
+                  "      x  x",
+                  "     x  x",
+                  " x   x  x",
+                  "    x  x",
+                  "    x  x",
+                  " x x  x",
+                  "   x  x",
+                  "  x  x ",
+                  "  x  x "
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "002F",
+                  "002F"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "name": "colon reverse-solidus",
+            "actions": [
+              {
+                "pad": {
+                  "bottom": 1,
+                  "right": 3
+                }
+              },
+              {
+                "xor": [
+                  "  x    ",
+                  "  x    ",
+                  "   x   ",
+                  "   x   ",
+                  " x  x  ",
+                  "    x  ",
+                  "     x ",
+                  " x   x ",
+                  "      x",
+                  "      x"
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "005c"
                 ]
               }
             ]
