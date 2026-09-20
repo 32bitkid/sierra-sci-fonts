@@ -2379,6 +2379,108 @@
               }
             ]
           }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 2,
+                  "right": 2
+                }
+              },
+              {
+                "xor": [
+                  "                 ",
+                  "                ",
+                  "  xx",
+                  "   xx",
+                  " xx xx",
+                  "     xx",
+                  " xx   xx",
+                  "       xx",
+                  "        x"
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "005c"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 2,
+                  "right": 10
+                }
+              },
+              {
+                "xor": [
+                  "                 ",
+                  "                 ",
+                  "        x   x   x",
+                  "       xx  xx  xx",
+                  " xx   xx  xx  xx ",
+                  "     xx  xx  xx  ",
+                  " xx xx  xx  xx   ",
+                  "   xx  xx  xx    ",
+                  "   x   x   x      "
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "002F",
+                  "002F",
+                  "002F"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "Fxxxx",
+          {
+            "actions": [
+              {
+                "pad": {
+                  "left": 2,
+                  "right": 6
+                }
+              },
+              {
+                "xor": [
+                  "             ",
+                  "             ",
+                  "        x   x",
+                  "       xx  xx",
+                  " xx   xx  xx ",
+                  "     xx  xx  ",
+                  " xx xx  xx   ",
+                  "   xx  xx    ",
+                  "   x   x    "
+                ]
+              },
+              {
+                "calt": [
+                  "003A",
+                  "002F",
+                  "002F"
+                ]
+              }
+            ]
+          }
         ]
       ]
     },
