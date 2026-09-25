@@ -830,6 +830,201 @@
               }
             ]
           }
+        ],
+        [
+          "20",
+          "2610",
+          {
+            "name": "Ballot Box",
+            "actions": [
+              {
+                "pad": {
+                  "right": 7,
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "  xxxxxxxx ",
+                  " x        x",
+                  " x        x",
+                  " x        x",
+                  " x        x",
+                  " x        x",
+                  " x        x ",
+                  " x        x ",
+                  "  xxxxxxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "2611",
+          {
+            "name": "Ballot Box Check",
+            "actions": [
+              {
+                "pad": {
+                  "right": 7,
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "  xxxxxxxx ",
+                  " x        x",
+                  " x      x x",
+                  " x     x  x",
+                  " x    x   x",
+                  " x x x    x",
+                  " x  x     x ",
+                  " x        x",
+                  "  xxxxxxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "2612",
+          {
+            "name": "Ballot Box X",
+            "actions": [
+              {
+                "pad": {
+                  "right": 7,
+                  "bottom": 1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "  xxxxxxxx ",
+                  " x        x",
+                  " x x    x x",
+                  " x  x  x  x",
+                  " x   xx   x",
+                  " x  x  x  x",
+                  " x x    x x ",
+                  " x        x",
+                  "  xxxxxxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "25CB",
+          {
+            "name": "White Circle",
+            "actions": [
+              {
+                "pad": {
+                  "right": 5
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "   xxxx  ",
+                  "  x    x ",
+                  " x      x",
+                  " x      x",
+                  " x      x",
+                  " x      x",
+                  "  x    x ",
+                  "   xxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "25CE",
+          {
+            "name": "Bullseye",
+            "actions": [
+              {
+                "pad": {
+                  "right": 5
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "   xxxx  ",
+                  "  x    x ",
+                  " x  xx  x",
+                  " x x  x x",
+                  " x x  x x",
+                  " x  xx  x",
+                  "  x    x ",
+                  "   xxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "25C9",
+          {
+            "name": "Fisheye",
+            "actions": [
+              {
+                "pad": {
+                  "right": 5
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "   xxxx  ",
+                  "  x    x ",
+                  " x  xx  x",
+                  " x xxxx x",
+                  " x xxxx x",
+                  " x  xx  x",
+                  "  x    x ",
+                  "   xxxx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "20",
+          "2299",
+          {
+            "name": "Circled Dot",
+            "actions": [
+              {
+                "pad": {
+                  "right": 5
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "   xxxx  ",
+                  "  x    x ",
+                  " x      x",
+                  " x  xx  x",
+                  " x  xx  x",
+                  " x      x",
+                  "  x    x ",
+                  "   xxxx"
+                ]
+              }
+            ]
+          }
         ]
       ]
     },
