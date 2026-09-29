@@ -223,4 +223,4 @@ rebuild-specimen:
 	cd specimen && npm run build
 
 watch:
-	ls defs/*.json | entr -p ../sci.js/apps/sciotf/dist/main.mjs adv /_ -o dist
+	ls defs/*.json | entr -p $(SCIOTF_BIN) adv /_ -o dist
