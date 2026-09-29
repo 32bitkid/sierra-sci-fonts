@@ -46,17 +46,7 @@
         ],
         [
           "31",
-          "0031",
-          {
-            "overwrite": true,
-            "actions": [
-              {
-                "trim": {
-                  "right": 1
-                }
-              }
-            ]
-          }
+          "0031"
         ],
         [
           "7C",
@@ -2402,6 +2392,22 @@
                   "",
                   " xx  ",
                   "   xx"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "31",
+          "Fxxxx",
+          {
+            "name": "proportional number 1",
+            "advanceWidth": 4,
+            "actions": [
+              {
+                "alt": [
+                  "pnum",
+                  "31"
                 ]
               }
             ]
