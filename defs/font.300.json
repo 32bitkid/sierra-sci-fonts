@@ -1025,6 +1025,119 @@
               }
             ]
           }
+        ],
+        [
+          "20",
+          "2009",
+          {
+            "name": "Thin Space",
+            "advanceWidth": 1
+          }
+        ],
+        [
+          "31",
+          "1D7F7",
+          {
+            "name": "Mathematical Monospace Digit One",
+            "advanceWidth": 6,
+            "actions": [
+              {
+                "pad": {
+                  "right": 2
+                }
+              },
+              {
+                "shift": {
+                  "dx": 1
+                }
+              },
+              {
+                "xor": [
+                  "     ",
+                  "  x  ",
+                  "  x",
+                  " x",
+                  " ",
+                  " ",
+                  " ",
+                  "     ",
+                  " x   x"
+                ]
+              },
+              {
+                "alt": [
+                  "tnum",
+                  "31"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "33",
+          "1D7F9",
+          {
+            "name": "Mathematical Monospace Digit Three",
+            "advanceWidth": 6,
+            "actions": [
+              {
+                "shift": {
+                  "dx": -1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "x   ",
+                  "    ",
+                  "    ",
+                  "  ",
+                  "",
+                  "",
+                  "xx",
+                  " x"
+                ]
+              },
+              {
+                "alt": [
+                  "tnum",
+                  "33"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          "34",
+          "1D7FA",
+          {
+            "name": "Mathematical Monospace Digit Four",
+            "advanceWidth": 6,
+            "actions": [
+              {
+                "shift": {
+                  "dx": -1
+                }
+              },
+              {
+                "xor": [
+                  "",
+                  "",
+                  " ",
+                  " xx",
+                  "xx",
+                  "xx",
+                  "x "
+                ]
+              },
+              {
+                "alt": [
+                  "tnum",
+                  "34"
+                ]
+              }
+            ]
+          }
         ]
       ]
     },
